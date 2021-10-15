@@ -1,0 +1,16 @@
+o que vamos precisar:
+    servidor web (node.js + pacote live-server)
+    navegador
+    editor
+
+instalação https://www.youtube.com/watch?v=hW5oUmRLMbc
+    NodeJs -> node -v
+    Live Server -> servidor web que pode servir arquivos estaticos html, js, css dentro de um diretorio
+        é um pacote instaldor via node
+        :::  npm install -g live-server
+        ::: live-server -v
+
+instalação do Vscode https://www.youtube.com/watch?v=prCSLVANx8Q
+    extenções:
+        debugger for chrome
+        prettier - code formatter
