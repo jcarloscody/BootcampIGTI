@@ -1,0 +1,80 @@
+/*Responsive Web Design - The Viewport Web Design Responsivo - A janela de visualização*/
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> /*O HTML5 introduziu um método para permitir que os web designers controlem a janela de visualização, por meio da <meta>tag*/
+
+
+
+
+/*Web Design Responsivo - Visualização em Grade*/
+
+
+
+
+
+/*Responsive Web Design - Media Queries       Web Design Responsivo - Consultas de mídia*/
+/*Ele usa a @mediaregra para incluir um bloco de propriedades CSS apenas se uma determinada condição for verdadeira.*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/*Pontos de interrupção típicos do dispositivo*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+/*Orientação: Retrato / Paisagem   Portrait / Landscape*/
+@media only screen and (orientation: landscape) {/*Portrait */
+    body {
+      background-color: lightblue;
+    }
+}
+
+
+
+
+
+
+/*Web Design Responsivo - Imagens*/
+/*Se a widthpropriedade for definida como uma porcentagem e a heightpropriedade for definida como "auto", a imagem será responsiva e aumentará ou diminuirá*/
+img {
+    width: 100%;
+    height: auto;
+}
+
