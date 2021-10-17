@@ -1,0 +1,18 @@
+JS é Linguagem dinâmica: a linguagem permite que uma variavel seja atribuida a um tipo e 
+depois ser atribuida a outro.
+
+JS é linguagem interpretada: pq nao precisa de um compilador para gerar um executavel, antes já é diretamente executad no navegador
+
+sugiu com o navegador netscape
+
+ECMAScript
+
+
+ESPECIFICACOES
+    ECMAScript 5.1  (ES5)
+    ECMAScript 6    (ES6, ou ES2015)
+    ECMAScript 2016 (ES2016)
+    ECMAScript 2020 (ES2020)
+
+
+

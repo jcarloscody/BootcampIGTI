@@ -1,0 +1,47 @@
+DOM Document Object Model
+
+Estrutura de dados em forma de arvore q representa o documento
+
+Podemos interagir com os nós da arbvore (elementos) via js
+    ler alterar propriedade
+    registrar listeners de eventos
+    inserir excluir
+
+
+var el = document.getElementById("mybtn");
+el.addEventListener("click", funcao)
+el.removeEventListener("click", funcao)
+
+
+
+Propagação de eventos
+> clica no elemento 
+> o navegador primeiro procura o evento click nos elementos pais e depois no filho - fase de capturing
+> fase de bubbling: o evento se propaga de dentro para fora. primeiro dispara os eventos dos filhos ate os pais
+
+el.addEventListener("click", funcao, true)  -> true registra na fase de capturing
+el.addEventListener("click", funcao, false) -> registra na fase de bubbling
+
+
+
+event.stopPropagation  se um hundler de evento chama esta funcao, a propa do evento é interrompida no ponto que está
+event.preventDefault    se um hundler de evento chama esa funcao, o navegador nao executa a acao padrao associada aquele evento, ex: abrir um link no evento click, ou submeter um formulario no event submit
+
+
+Alguns event
+    focus
+    blur      elemento perde o foco
+    input     valor de um elemento muda (input, select, textarea)
+    submit     formulario submetido
+    keydown    tecla do teclado pressionada
+    keyup      tecla do teclado liberada
+    click      botão do mouse pressionado e liberado
+    mousemove  
+
+
+
+funcao document.createElement
+appendChild, remove, insertBefore
+
+
+element.style, className, classList
