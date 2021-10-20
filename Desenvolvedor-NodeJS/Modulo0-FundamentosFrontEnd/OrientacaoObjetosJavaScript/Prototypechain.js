@@ -25,11 +25,7 @@ console.log(r1.area === r2.area)
 
 function RetanguloV2(alt, larg) {
     this.altura = alt;
-    this.largura = larg;
-    this.area = function(){
-        return this.altura * this.largura
-    }
-    
+    this.largura = larg;    
 }
 
 RetanguloV2.prototype.area = function(){
@@ -38,6 +34,7 @@ RetanguloV2.prototype.area = function(){
 
 var r3 = new RetanguloV2(3,4)
 var r4 = new RetanguloV2(32,44)
-
+var igu = r4.area
 console.log("igualdade")
 console.log(r3.area() )
+console.log(igu())

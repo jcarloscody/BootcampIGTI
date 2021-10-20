@@ -182,13 +182,13 @@ var uniao_array = frutas_array.join(" - "); //pode colocar um separador
 
 var frutas = ['banana', 'maça','laranja','melão'];
 
-fruits.pop();              // Removes the last element
-fruits.push("Kiwi");       //  Adds a new element
-fruits.shift();            // Removes the first element
-fruits.unshift("Lemon");    // Adds a new element in firt
-delete fruits[0];           // Changes the first element in fruits to undefined, O uso de delete pode deixar lacunas
-fruits.splice(2, 0, "Lemon", "Kiwi");  //adiciona novos item. onde, exclusoes, valores
-fruits.splice(0, 1);        // Removes the first element of fruits
+frutas.pop();              // Removes the last element
+frutas.push("Kiwi");       //  Adds a new element
+frutas.shift();            // Removes the first element
+frutas.unshift("Lemon");    // Adds a new element in firt
+delete frutas[0];           // Changes the first element in fruits to undefined, O uso de delete pode deixar lacunas
+frutas.splice(2, 0, "Lemon", "Kiwi");  //adiciona novos item. onde, exclusoes, valores
+frutas.splice(0, 1);        // Removes the first element of fruits
 var frutas_total = frutas.concat(frutas_array); 
 var myChildren = myGirls.concat(myBoys);  //corta parte de uma matriz a partir do elemento 3 da matriz 
 var citrus = fruits.slice(1, 3); //pode receber dois argumentos como slice(1, 3). O método então seleciona elementos do argumento inicial e até (mas não incluindo) o argumento final.

@@ -1,1 +1,2 @@
 npm init -y                -y yes para tudo
+npm install nodemon -g
