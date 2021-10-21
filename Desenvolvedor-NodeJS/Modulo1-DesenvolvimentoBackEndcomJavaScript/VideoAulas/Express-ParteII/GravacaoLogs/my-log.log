@@ -1,0 +1,60 @@
+error [my-app] 2021-10-21T19:35:47.825Z: Error log
+warn [my-app] 2021-10-21T19:35:47.828Z: Warn log
+info [my-app] 2021-10-21T19:35:47.828Z: Info log
+verbose [my-app] 2021-10-21T19:35:47.829Z: Verbose log
+debug [my-app] 2021-10-21T19:35:47.829Z: Debug log
+silly [my-app] 2021-10-21T19:35:47.830Z: Silly log
+info [my-app] 2021-10-21T19:35:47.830Z: hello with parameter
+error [undefined] 2021-10-21T19:36:18.571Z: Error log
+warn [undefined] 2021-10-21T19:36:18.574Z: Warn log
+info [undefined] 2021-10-21T19:36:18.574Z: Info log
+verbose [undefined] 2021-10-21T19:36:18.575Z: Verbose log
+debug [undefined] 2021-10-21T19:36:18.575Z: Debug log
+silly [undefined] 2021-10-21T19:36:18.576Z: Silly log
+info [undefined] 2021-10-21T19:36:18.576Z: hello with parameter
+error [my-app] 2021-10-21T19:37:00.765Z: Error log
+warn [my-app] 2021-10-21T19:37:00.768Z: Warn log
+info [my-app] 2021-10-21T19:37:00.768Z: Info log
+verbose [my-app] 2021-10-21T19:37:00.769Z: Verbose log
+debug [my-app] 2021-10-21T19:37:00.769Z: Debug log
+silly [my-app] 2021-10-21T19:37:00.770Z: Silly log
+info [my-app] 2021-10-21T19:37:00.770Z: hello with parameter
+error [my-app] 2021-10-21T19:37:52.446Z: undefined
+warn [my-app] 2021-10-21T19:37:52.448Z: undefined
+info [my-app] 2021-10-21T19:37:52.449Z: undefined
+verbose [my-app] 2021-10-21T19:37:52.449Z: undefined
+debug [my-app] 2021-10-21T19:37:52.450Z: undefined
+silly [my-app] 2021-10-21T19:37:52.450Z: undefined
+info [my-app] 2021-10-21T19:37:52.451Z: undefined
+error [my-app] 2021-10-21T19:38:11.798Z: Error log
+warn [my-app] 2021-10-21T19:38:11.800Z: Warn log
+info [my-app] 2021-10-21T19:38:11.801Z: Info log
+verbose [my-app] 2021-10-21T19:38:11.801Z: Verbose log
+debug [my-app] 2021-10-21T19:38:11.802Z: Debug log
+silly [my-app] 2021-10-21T19:38:11.802Z: Silly log
+info [my-app] 2021-10-21T19:38:11.803Z: hello with parameter
+error [my-app] 2021-10-21T19:38:25.131Z: Error log
+warn [my-app] 2021-10-21T19:38:25.134Z: Warn log
+info [my-app] 2021-10-21T19:38:25.134Z: Info log
+verbose [my-app] 2021-10-21T19:38:25.135Z: Verbose log
+debug [my-app] 2021-10-21T19:38:25.135Z: Debug log
+silly [my-app] 2021-10-21T19:38:25.136Z: Silly log
+info [my-app] 2021-10-21T19:38:25.137Z: hello with parameter
+undefined [my-app] 2021-10-21T19:43:06.820Z: Error log
+undefined [my-app] 2021-10-21T19:43:06.822Z: Warn log
+undefined [my-app] 2021-10-21T19:43:06.823Z: Info log
+undefined [my-app] 2021-10-21T19:43:06.823Z: Verbose log
+undefined [my-app] 2021-10-21T19:43:06.824Z: Debug log
+undefined [my-app] 2021-10-21T19:43:06.824Z: Silly log
+undefined [my-app] 2021-10-21T19:43:06.825Z: hello with parameter
+undefined [my-app] 2021-10-21T19:43:19.407Z: Error log
+undefined [my-app] 2021-10-21T19:43:19.409Z: Warn log
+undefined [my-app] 2021-10-21T19:43:19.410Z: Info log
+undefined [my-app] 2021-10-21T19:43:19.410Z: hello with parameter
+error [my-app] 2021-10-21T19:43:26.924Z: Error log
+warn [my-app] 2021-10-21T19:43:26.928Z: Warn log
+info [my-app] 2021-10-21T19:43:26.928Z: Info log
+verbose [my-app] 2021-10-21T19:43:26.928Z: Verbose log
+debug [my-app] 2021-10-21T19:43:26.929Z: Debug log
+silly [my-app] 2021-10-21T19:43:26.929Z: Silly log
+info [my-app] 2021-10-21T19:43:26.930Z: hello with parameter
