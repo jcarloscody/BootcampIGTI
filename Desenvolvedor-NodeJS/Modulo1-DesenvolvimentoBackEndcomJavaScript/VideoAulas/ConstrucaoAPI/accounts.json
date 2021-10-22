@@ -1,7 +1,15 @@
 {
   "nextId": 3,
   "accounts": [
-    null,
-    null
+    {
+      "id": 1,
+      "nome": "fernanda gostosa",
+      "balance": 56445
+    },
+    {
+      "id": 2,
+      "nome": "to aqui para te pegar",
+      "balance": 56445
+    }
   ]
 }
