@@ -1,0 +1,95 @@
+2021-10-25T19:45:36.052Z --my-bank-api-- info: API Started!
+2021-10-25T19:47:02.701Z --my-bank-api-- info: API Started!
+2021-10-25T19:47:11.258Z --my-bank-api-- info: API Started!
+2021-10-25T19:47:19.564Z --my-bank-api-- info: API Started!
+2021-10-25T19:47:24.128Z --my-bank-api-- error: data is not defined 
+2021-10-25T19:48:11.184Z --my-bank-api-- info: API Started!
+2021-10-25T19:48:14.129Z --my-bank-api-- error: data is not defined [object Object]
+2021-10-25T19:48:34.350Z --my-bank-api-- info: API Started!
+2021-10-25T19:51:13.615Z --my-bank-api-- info: API Started!
+2021-10-25T20:01:58.974Z --my-bank-api-- info: API Started and File created!
+2021-10-25T20:02:17.499Z --my-bank-api-- info: API Started!
+2021-10-25T20:02:20.212Z --my-bank-api-- error: GET /account - data is not defined 
+2021-10-25T20:02:55.743Z --my-bank-api-- info: API Started!
+2021-10-25T20:05:19.359Z --my-bank-api-- info: API Started!
+2021-10-25T20:05:32.415Z --my-bank-api-- info: API Started!
+2021-10-25T20:06:35.073Z --my-bank-api-- info: API Started!
+2021-10-25T20:07:38.364Z --my-bank-api-- info: API Started!
+2021-10-25T20:07:50.204Z --my-bank-api-- info: API Started!
+2021-10-25T20:07:54.050Z --my-bank-api-- error: GET /account - account is not defined 
+2021-10-25T20:08:13.122Z --my-bank-api-- error: GET /account - account is not defined 
+2021-10-25T20:08:56.832Z --my-bank-api-- info: API Started!
+2021-10-25T20:08:58.829Z --my-bank-api-- info: GET /account 
+2021-10-25T20:09:21.788Z --my-bank-api-- info: POST /account {"id":1,"nome":"aqui o pau qubra dois","balance":56445}
+2021-10-25T20:18:51.134Z --my-bank-api-- info: API Started!
+2021-10-25T20:19:02.343Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-25T20:21:01.401Z --my-bank-api-- info: API Started!
+2021-10-25T20:22:59.651Z --my-bank-api-- info: API Started!
+2021-10-25T20:24:34.397Z --my-bank-api-- info: API Started!
+2021-10-25T20:27:19.528Z --my-bank-api-- info: API Started!
+2021-10-25T20:27:42.531Z --my-bank-api-- error: PUT /account - account is not defined 
+2021-10-25T20:28:18.913Z --my-bank-api-- info: API Started!
+2021-10-25T20:28:20.582Z --my-bank-api-- error: PUT /account - account is not defined 
+2021-10-25T20:30:33.414Z --my-bank-api-- error: PUT /account - account is not defined 
+2021-10-25T20:30:46.408Z --my-bank-api-- info: API Started!
+2021-10-25T20:30:48.463Z --my-bank-api-- error: PUT /account - o nome e o balance são itens obrigatorios 
+2021-10-25T20:31:11.748Z --my-bank-api-- info: API Started!
+2021-10-25T20:32:20.071Z --my-bank-api-- info: API Started!
+2021-10-25T20:34:26.982Z --my-bank-api-- info: API Started!
+2021-10-25T20:34:33.187Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-25T20:39:11.182Z --my-bank-api-- info: API Started!
+2021-10-25T20:40:12.971Z --my-bank-api-- info: API Started!
+2021-10-25T20:40:58.610Z --my-bank-api-- info: API Started!
+2021-10-25T20:41:43.456Z --my-bank-api-- error: PUT /account - o ID, nome e o balance são itens obrigatorios 
+2021-10-25T20:41:48.998Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-25T20:41:59.155Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-25T23:09:24.156Z --my-bank-api-- info: API Started!
+2021-10-25T23:10:18.455Z --my-bank-api-- info: GET /account 
+2021-10-25T23:22:18.691Z --my-bank-api-- info: API Started!
+2021-10-25T23:23:33.312Z --my-bank-api-- info: GET /account 
+2021-10-25T23:23:44.020Z --my-bank-api-- info: GET /account 
+2021-10-25T23:23:45.884Z --my-bank-api-- info: GET /account 
+2021-10-25T23:25:30.360Z --my-bank-api-- info: API Started!
+2021-10-25T23:28:02.918Z --my-bank-api-- info: API Started!
+2021-10-25T23:28:09.491Z --my-bank-api-- info: GET /account 
+2021-10-25T23:30:52.630Z --my-bank-api-- info: API Started!
+2021-10-25T23:31:33.456Z --my-bank-api-- info: API Started!
+2021-10-25T23:31:44.307Z --my-bank-api-- info: GET /account 
+2021-10-25T23:33:04.031Z --my-bank-api-- info: GET /account 
+2021-10-25T23:33:31.850Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:00.197Z --my-bank-api-- info: API Started!
+2021-10-25T23:34:02.532Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:03.481Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:09.537Z --my-bank-api-- info: API Started!
+2021-10-25T23:34:11.392Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:22.858Z --my-bank-api-- info: API Started!
+2021-10-25T23:34:30.478Z --my-bank-api-- info: API Started!
+2021-10-25T23:34:31.860Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:33.038Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:33.849Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:34:41.645Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:36:11.070Z --my-bank-api-- info: API Started!
+2021-10-25T23:36:11.705Z --my-bank-api-- info: API Started!
+2021-10-25T23:36:15.701Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:36:16.660Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:36:17.434Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:36:19.906Z --my-bank-api-- info: GET /account 
+2021-10-25T23:36:47.024Z --my-bank-api-- info: GET /account 
+2021-10-25T23:36:56.531Z --my-bank-api-- info: GET /account 
+2021-10-25T23:42:37.798Z --my-bank-api-- info: API Started!
+2021-10-25T23:42:47.563Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:42:55.156Z --my-bank-api-- info: GET /account 
+2021-10-25T23:42:58.169Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:43:02.016Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-25T23:47:00.372Z --my-bank-api-- info: API Started!
+2021-10-25T23:47:13.278Z --my-bank-api-- info: GET /account 
+2021-10-26T03:28:18.913Z --my-bank-api-- info: API Started!
+2021-10-26T03:33:20.361Z --my-bank-api-- info: GET /account 
+2021-10-26T03:33:26.864Z --my-bank-api-- info: API Started!
+2021-10-26T03:34:13.738Z --my-bank-api-- info: API Started!
+2021-10-26T03:36:15.471Z --my-bank-api-- info: API Started!
+2021-10-26T03:36:35.907Z --my-bank-api-- info: API Started!
+2021-10-26T03:37:35.231Z --my-bank-api-- info: API Started!
+2021-10-26T03:37:44.344Z --my-bank-api-- info: API Started!
+2021-10-26T03:37:49.686Z --my-bank-api-- info: GET /account 
+2021-10-26T03:38:43.949Z --my-bank-api-- info: API Started!
