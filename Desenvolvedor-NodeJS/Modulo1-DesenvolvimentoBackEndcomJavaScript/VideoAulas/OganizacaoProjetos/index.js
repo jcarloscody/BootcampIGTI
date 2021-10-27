@@ -36,7 +36,7 @@ global.logger = winston.createLogger({
 const app = express();
 app.use(express.json())
 app.use(express.static("public"))
-//app.use(cors()); //libera todos os endpoints
+app.use(cors()); //libera todos os endpoints
 app.use("/doc", swagger.serve, swagger.setup(swaggerDocument))
 
 app.use("/account", routerAccount);

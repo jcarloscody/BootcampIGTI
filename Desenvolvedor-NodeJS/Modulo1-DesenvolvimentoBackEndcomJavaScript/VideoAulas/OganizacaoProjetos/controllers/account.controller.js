@@ -1,6 +1,5 @@
-import { promises as fs } from 'fs';
+import AccountServices from '../services/account.service.js'
 
-const { writeFile, readFile } = fs;
 
 async function createAccount(req, res, next) {
     try {
@@ -9,15 +8,8 @@ async function createAccount(req, res, next) {
             throw new Error("o nome e o balance são itens obrigatorios")
         }
 
-        const data = JSON.parse(await readFile(global.fileName))
-        account = {
-            id: data.nextId,
-            nome: account.name,
-            balance: account.balance
-        }
-        data.nextId++;
-        data.accounts.push(account);
-        await writeFile(global.fileName, JSON.stringify(data, null, 2))
+        account = await AccountServices.createAccount(account)
+
         res.send(account)
         logger.info(`POST /account ${JSON.stringify(account)}`)
     } catch (error) {
@@ -25,6 +17,65 @@ async function createAccount(req, res, next) {
     }
 }
 
+async function getAccounts(req, res, next) {
+    try {
+        res.send(await AccountServices.getAccounts())
+        logger.info(`GET /account `)
+    } catch (error) {
+        next(error)
+    }
+}
+
+async function getAccount(req, res, next) {
+    try {
+        res.send(await AccountServices.getAccount(req.params.id));
+    } catch (error) {
+        next(error)
+    }
+}
+
+
+async function deleteAccount(req, res, next) {
+    try {
+        res.send(await AccountServices.deleteAccount(req.params.id));
+    } catch (error) {
+        next(error)
+    }
+}
+
+async function updateAccount(req, res, next) {
+    try {
+        let accountBody = req.body;
+        if ((!accountBody.id || !accountBody.nome || !accountBody.balance == null)) {
+            throw new Error("o ID, nome e o balance são itens obrigatorios")
+        }
+        res.send(await AccountServices.updateAccount(accountBody.id, accountBody.nome, accountBody.balance))
+    } catch (error) {
+        next(error)
+    }
+}
+
+
+async function updateBalance(req, res, next) {
+    try {
+        let accountBody = req.body;
+        if ((!accountBody.id || !accountBody.balance == null)) {
+            throw new Error("o ID e o balance são itens obrigatorios")
+        }
+        res.send(await AccountServices.updateBalance(accountBody.id, accountBody.balance))
+    } catch (error) {
+        next(error)
+    }
+}
+
+
+
+
 export default {
-    createAccount
+    createAccount,
+    getAccounts,
+    getAccount,
+    deleteAccount,
+    updateAccount,
+    updateBalance
 };
