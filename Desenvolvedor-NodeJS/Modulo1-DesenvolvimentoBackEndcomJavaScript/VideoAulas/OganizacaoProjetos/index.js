@@ -42,7 +42,7 @@ app.use("/doc", swagger.serve, swagger.setup(swaggerDocument))
 app.use("/account", routerAccount);
 
 
-app.listen(3000, async () => {
+app.listen(3001, async () => {
 
 
     try {

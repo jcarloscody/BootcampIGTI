@@ -317,3 +317,11 @@
 2021-10-27T03:15:13.252Z --my-bank-api-- info: API Started!
 2021-10-27T03:15:46.160Z --my-bank-api-- info: API Started!
 2021-10-27T03:16:07.810Z --my-bank-api-- info: API Started!
+2021-10-27T22:02:21.290Z --my-bank-api-- info: API Started!
+2021-10-27T22:04:37.481Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-27T22:05:01.617Z --my-bank-api-- info: API Started!
+2021-10-27T22:05:03.783Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-27T22:05:18.850Z --my-bank-api-- info: API Started!
+2021-10-27T22:05:19.766Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-27T22:05:30.887Z --my-bank-api-- info: API Started!
+2021-10-27T22:05:31.588Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 

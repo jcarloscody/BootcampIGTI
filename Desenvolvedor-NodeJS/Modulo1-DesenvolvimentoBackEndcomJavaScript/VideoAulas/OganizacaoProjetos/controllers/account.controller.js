@@ -9,8 +9,8 @@ async function createAccount(req, res, next) {
         }
 
         account = await AccountServices.createAccount(account)
-
         res.send(account)
+
         logger.info(`POST /account ${JSON.stringify(account)}`)
     } catch (error) {
         next(error)
