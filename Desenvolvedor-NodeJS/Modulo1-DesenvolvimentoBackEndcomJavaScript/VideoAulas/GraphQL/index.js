@@ -8,6 +8,7 @@ import swagger from 'swagger-ui-express'
 import { swaggerDocument } from './doc.js';
 import { buildSchema } from 'graphql';
 import { graphqlHTTP } from 'express-graphql';
+import AccountService from './services/account.service.js';
 
 
 const { readFile, writeFile } = fs
@@ -42,9 +43,17 @@ const schemaGraph = buildSchema(`
     }
     type Query {
         getAccounts: [Account]
-        getAccount(id: int): Account
+        getAccount(id: Int): Account
     }
 `)
+
+const rootGraph = {
+    getAccounts: () => AccountService.getAccounts(),
+    getAccount(args) {
+        return AccountService.getAccount(args.id)
+    }
+
+}
 
 //instanciando o server 
 const app = express();
@@ -57,7 +66,7 @@ app.use("/account", routerAccount);
 
 app.use("/graphql", graphqlHTTP({
     schema: schemaGraph,
-    rootValue: null,
+    rootValue: rootGraph,
     graphiql: true //tras uma interface
 }))
 

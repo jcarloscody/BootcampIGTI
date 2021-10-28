@@ -327,3 +327,10 @@
 2021-10-27T22:05:31.588Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
 2021-10-28T17:35:52.942Z --my-bank-api-- info: API Started!
 2021-10-28T17:36:33.087Z --my-bank-api-- info: GET /account 
+2021-10-28T18:55:38.179Z --my-bank-api-- info: API Started!
+2021-10-28T18:56:16.576Z --my-bank-api-- info: API Started!
+2021-10-28T19:02:14.611Z --my-bank-api-- info: API Started!
+2021-10-28T19:03:34.500Z --my-bank-api-- info: API Started!
+2021-10-28T19:05:26.496Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
+2021-10-28T19:05:33.418Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
+2021-10-28T19:05:38.074Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
