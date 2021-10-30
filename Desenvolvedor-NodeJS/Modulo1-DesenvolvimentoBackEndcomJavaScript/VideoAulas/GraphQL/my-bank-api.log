@@ -334,3 +334,28 @@
 2021-10-28T19:05:26.496Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
 2021-10-28T19:05:33.418Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
 2021-10-28T19:05:38.074Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
+2021-10-28T19:08:41.448Z --my-bank-api-- info: API Started!
+2021-10-29T19:36:31.554Z --my-bank-api-- info: API Started!
+2021-10-29T19:39:38.400Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
+2021-10-29T19:45:59.271Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":56}
+2021-10-29T19:47:17.191Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-29T19:48:25.675Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-29T19:48:33.093Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-29T19:48:34.262Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-29T19:49:33.352Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-29T19:49:38.495Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-29T19:52:51.027Z --my-bank-api-- info: API Started!
+2021-10-29T20:54:30.298Z --my-bank-api-- info: API Started!
+2021-10-29T20:54:56.416Z --my-bank-api-- info: API Started!
+2021-10-29T20:56:30.689Z --my-bank-api-- info: API Started!
+2021-10-29T20:57:51.038Z --my-bank-api-- info: API Started!
+2021-10-29T20:58:21.280Z --my-bank-api-- info: atualizado com sucesso
+2021-10-29T20:58:57.345Z --my-bank-api-- info: API Started!
+2021-10-29T20:59:34.245Z --my-bank-api-- info: DELETE /account:1 {"id":1,"nome":"meu nome se chamava Marcos Aurelio","balance":0}
+2021-10-29T20:59:48.001Z --my-bank-api-- info: API Started!
+2021-10-29T20:59:57.557Z --my-bank-api-- info: GET /account/:1 --- Não temos o ID 1 registrado no sistema 
+2021-10-29T21:05:38.891Z --my-bank-api-- info: API Started!
+2021-10-29T21:07:57.955Z --my-bank-api-- info: API Started!
+2021-10-29T22:05:52.490Z --my-bank-api-- info: API Started!
+2021-10-29T22:09:03.326Z --my-bank-api-- info: API Started!
+2021-10-29T22:09:42.605Z --my-bank-api-- info: API Started!

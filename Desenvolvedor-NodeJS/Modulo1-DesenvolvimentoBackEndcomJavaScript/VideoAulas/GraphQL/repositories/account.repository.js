@@ -48,7 +48,7 @@ async function deleteAccount(id) {
         data.accounts = accounts
         await writeFile(global.fileName, JSON.stringify(data, null, 2))
         logger.info(`DELETE /account:${parseInt(id)} ${JSON.stringify(accountDeleted)}`)
-        return data.accounts;
+        return `sucesso`;
     } else {
         logger.info(`Não temos o ID ${parseInt(id)} registrado no sistema`)
         return `Não temos o ID ${parseInt(id)} registrado no sistema`

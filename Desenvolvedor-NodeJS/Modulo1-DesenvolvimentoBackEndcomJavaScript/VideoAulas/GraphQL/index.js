@@ -9,6 +9,7 @@ import { swaggerDocument } from './doc.js';
 import { buildSchema } from 'graphql';
 import { graphqlHTTP } from 'express-graphql';
 import AccountService from './services/account.service.js';
+import schemaGraph from './schema/index.js';
 
 
 const { readFile, writeFile } = fs
@@ -35,8 +36,13 @@ global.logger = winston.createLogger({
     )
 })
 
-const schemaGraph = buildSchema(`
+/*const schemaGraph = buildSchema(`
     type Account {
+        id: Int
+        nome: String
+        balance: Float
+    }
+    input AccountInput {
         id: Int
         nome: String
         balance: Float
@@ -45,15 +51,28 @@ const schemaGraph = buildSchema(`
         getAccounts: [Account]
         getAccount(id: Int): Account
     }
+    type Mutation {
+        createAccount(account: AccountInput): Account
+        deleteAccount(id: Int): String
+        updateAccount(id: Int, nome: String, balance: Float): String
+    }
 `)
 
 const rootGraph = {
     getAccounts: () => AccountService.getAccounts(),
     getAccount(args) {
         return AccountService.getAccount(args.id)
+    },
+    createAccount({ account }) {
+        return AccountService.createAccount(account)
+    },
+    deleteAccount(args) {
+        return AccountService.deleteAccount(args.id)
+    },
+    updateAccount(args) {
+        return AccountService.updateAccount(args.id, args.nome, args.balance)
     }
-
-}
+}*/
 
 //instanciando o server 
 const app = express();
@@ -66,7 +85,7 @@ app.use("/account", routerAccount);
 
 app.use("/graphql", graphqlHTTP({
     schema: schemaGraph,
-    rootValue: rootGraph,
+    //rootValue: rootGraph,
     graphiql: true //tras uma interface
 }))
 
@@ -95,14 +114,53 @@ app.listen(3001, async () => {
 })
 
 /**
- * cors - compartilhamento de recursos de origem cruzadas. é uma questao de seguranca que temos em paginas web
- * que quando vc fornece uma api por default somente paginas que estejam hospedadas juntamente a esta api que podem
- * conseguir acessar ela.. EM SUMA uma api de outro dominio esta quer consumir os recurso da nossa api que esta em dominio diferente
- * por padrão será bloqueado, para liberar usamos a biblioteca cors
+ * QUERY DO GRAPHQL
+ *
+ {
+  getAccount(id: 1){
+    id
+    nome
+    balance
+  }
+ getAccounts{
+    id
+    nome
+    balance
+  }
+}
+
+MUTATION
+
+  mutation {
+    createAccount(account: {
+      nome: "meu nome é Carlos"
+      balance: 69167671676
+    }){
+      id
+      nome
+      balance
+    }
+  }
+
+
+    mutation {
+    updateAccount(
+      id: 1
+      nome: "meu nome se chamava Marcos Aurelio"
+      balance: 0)
+  }
+
+
+  mutation {
+
+
+    deleteAccount(
+      id: 1
+     )
+  }
+
+ *
  */
 
-/**DOCUMENTAÇÃO
- * editor.swagger.io
- *
- * bibliboteca: npm install swagger-ui-express
- */
+
+
