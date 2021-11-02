@@ -4,12 +4,12 @@ import http from "http";
 
 //criar com o metodo createServer que recebera uma callback que tratará as requisições.  e vai retornar uma variavel e em cima dela executar o metodo listening
 http.createServer((request, response) => {
-    if ((request.method === "GET") && (request.url === "/test")){
+    if ((request.method === "GET") && (request.url === "/test")) {
         response.write("esta pagina está em teste");
     } else {
-        response.write("Hello guys there");
+        response.write("Hello guys there" + request.method);
     }
-    response.statusCode = 200;    
+    response.statusCode = 200;
     response.end(); //encerra a requisicao
 }).listen(8081);
 

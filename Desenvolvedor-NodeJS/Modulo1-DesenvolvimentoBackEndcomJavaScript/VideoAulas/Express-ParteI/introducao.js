@@ -12,7 +12,7 @@ app.get("/", (request, resp) => {
 app.post("/", (request, resp) => {
     let a = 100;
     let b = 200;
-    let resul = a + b;
+    let resul = soma(a, b);
     resp.send(`resultado: ${resul}`)
 })
 
@@ -21,6 +21,6 @@ function soma(a, b) {
 }
 
 //iniciar o servidor
-app.listen(3000, ()=>{
+app.listen(3000, () => {
     console.log("sucesso");
 })

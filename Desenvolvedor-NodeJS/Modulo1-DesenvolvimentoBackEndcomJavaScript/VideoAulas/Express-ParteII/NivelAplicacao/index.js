@@ -5,16 +5,17 @@ const app = express(); //estamos no nivel de aplicação pq estamos associadno o
 
 app.use(express.json()) //quando usamos o use, estamos pedindo que determinado codigo seja usado sempre independente de quem esteja passando por ali
 
-app.use((req,res,next)=>{
+app.use((req, res, next) => {
     console.log(new Date());
     next()
-}) 
+})
 
-app.get("/", (req, res)=>{
+app.get("/", (req, res) => {
     Logger.info("estamos aquiiiiiiiiii")
     res.send("çasdfaso")
 })
 
-app.listen(3000, ()=>{
+app.listen(3000, () => {
     console.log("iniciou o servidor")
+    Logger.info("servidor subiu")
 })

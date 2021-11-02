@@ -1,4 +1,4 @@
-import {promises as fs, write} from "fs"
+import { promises as fs, write } from "fs"
 //https://www.youtube.com/watch?list=PLliVpcscu0l5knbl572pzTYxFdj6Zw5ro&v=jWvYaNi229w
 writeReadJson();
 
@@ -11,18 +11,18 @@ async function writeReadJson() {
             proprietario: nome
         }
 
-        await fs.writeFile("arquivoJSON.json", JSON.stringify( obj));//stringify -  converte objetos em texto
-        
+        await fs.writeFile("arquivoJSON.json", JSON.stringify(obj, null, 2));//stringify -  converte objetos em texto
+
         let dados = await fs.readFile("arquivoJSON.json", "utf-8"); //nao precisa nem colocar o , "utf-8", pois na conversao para JSON ele já entende, a nao ser que queira ver em texto
-        
+
         console.log(dados)
         dados = JSON.parse(dados); //converte o texto em objeto json
         console.log(dados)
         dados.carros.push("bablbab")
         console.log(dados)
-        
-        await fs.writeFile("arquivoJSON.json", JSON.stringify(dados));
+
+        await fs.writeFile("arquivoJSON.json", JSON.stringify(dados, null, 2));
     } catch (error) {
-        
+
     }
 }
