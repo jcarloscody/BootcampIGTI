@@ -153,13 +153,36 @@ MUTATION
 
 
   mutation {
-
-
     deleteAccount(
       id: 1
      )
   }
 
+
+
+
+  mutation {
+    createAccount(account: {
+      nome: "Teste",
+      balance: 3000
+    }) {
+    id
+    nome
+    balance
+  }
+
+  updateAccount(account: {
+    id: 22,
+    nome: "Teste 2",
+    balance: 3500
+  }){
+    id
+    nome
+    balance
+  }
+
+  deleteAccount(id: 3)
+  }
  *
  */
 

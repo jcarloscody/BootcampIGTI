@@ -359,3 +359,37 @@
 2021-10-29T22:05:52.490Z --my-bank-api-- info: API Started!
 2021-10-29T22:09:03.326Z --my-bank-api-- info: API Started!
 2021-10-29T22:09:42.605Z --my-bank-api-- info: API Started!
+2021-11-04T12:29:59.664Z --my-bank-api-- info: API Started!
+2021-11-04T12:32:10.561Z --my-bank-api-- info: GET /account/:2 {"id":2,"nome":"carlos","balance":1653}
+2021-11-04T12:39:51.295Z --my-bank-api-- info: API Started!
+2021-11-04T12:40:14.570Z --my-bank-api-- info: API Started!
+2021-11-04T12:40:17.515Z --my-bank-api-- info: API Started!
+2021-11-04T12:42:59.959Z --my-bank-api-- info: API Started!
+2021-11-04T12:44:59.132Z --my-bank-api-- info: API Started!
+2021-11-04T12:47:02.327Z --my-bank-api-- info: API Started!
+2021-11-04T12:48:08.630Z --my-bank-api-- info: API Started!
+2021-11-04T12:48:20.523Z --my-bank-api-- info: API Started!
+2021-11-04T12:58:50.021Z --my-bank-api-- info: API Started!
+2021-11-04T13:09:27.299Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-11-04T13:09:38.053Z --my-bank-api-- info: API Started!
+2021-11-04T13:09:40.370Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-11-04T13:14:39.019Z --my-bank-api-- info: API Started!
+2021-11-04T13:14:47.220Z --my-bank-api-- info: API Started!
+2021-11-04T13:16:44.958Z --my-bank-api-- info: API Started!
+2021-11-04T13:16:48.637Z --my-bank-api-- info: API Started!
+2021-11-04T13:18:02.731Z --my-bank-api-- info: API Started!
+2021-11-04T13:18:12.121Z --my-bank-api-- info: API Started!
+2021-11-04T13:18:23.399Z --my-bank-api-- info: API Started!
+2021-11-04T13:20:10.599Z --my-bank-api-- info: API Started!
+2021-11-04T13:20:16.033Z --my-bank-api-- info: API Started!
+2021-11-04T13:21:27.138Z --my-bank-api-- info: API Started!
+2021-11-04T13:21:38.445Z --my-bank-api-- info: API Started!
+2021-11-04T13:22:07.866Z --my-bank-api-- info: API Started!
+2021-11-04T13:22:20.079Z --my-bank-api-- info: API Started!
+2021-11-04T13:22:44.230Z --my-bank-api-- info: API Started!
+2021-11-04T13:28:19.593Z --my-bank-api-- info: API Started!
+2021-11-04T13:28:24.687Z --my-bank-api-- info: API Started!
+2021-11-04T13:29:38.500Z --my-bank-api-- info: API Started!
+2021-11-04T13:29:44.802Z --my-bank-api-- info: DELETE /account:2 {"id":2,"nome":"carlos","balance":1653}
+2021-11-04T13:29:58.020Z --my-bank-api-- info: DELETE /account:3 {"id":3,"nome":"marina","balance":1653}
+2021-11-04T13:30:34.752Z --my-bank-api-- info: API Started!

@@ -1,16 +1,6 @@
 {
-  "nextId": 8,
+  "nextId": 10,
   "accounts": [
-    {
-      "id": 2,
-      "nome": "carlos",
-      "balance": 1653
-    },
-    {
-      "id": 3,
-      "nome": "marina",
-      "balance": 1653
-    },
     {
       "id": 4,
       "nome": "meu nome é Carlos",
@@ -30,6 +20,16 @@
       "id": 7,
       "nome": "meu nome é Carlos",
       "balance": 69167671676
+    },
+    {
+      "id": 8,
+      "nome": "Teste",
+      "balance": 3000
+    },
+    {
+      "id": 9,
+      "nome": "Teste",
+      "balance": 3000
     }
   ]
 }
