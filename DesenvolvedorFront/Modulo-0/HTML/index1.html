@@ -45,7 +45,7 @@
                 background-image: url("img/whie.jpg");
                 background-repeat: repeat;
                 background-attachment: fixed;
-                /*background-size: cover;*/
+                background-size: contain;
             }
 
             table,
@@ -53,6 +53,7 @@
             td {
                 border: 1px rgb(41, 44, 221) solid;
                 border-collapse: collapse;
+                
             }
 
             th,
@@ -65,11 +66,56 @@
             }
 
             table {
-                border-spacing: 35px;
+                border-spacing: 5px;/*É espaçamento entre as celulas. mas como foi aplicado o collapse, o spacing perde o efeito*/
             }
+
+            
+
+            tr:nth-child(even) {/*Nota: Se você usar em (odd)vez de (even), o estilo ocorrerá na linha 1,3,5 etc. em vez de 2,4,6 etc.*/
+                background-color: rgba(150, 212, 212, 0.4);
+            }
+
+            th:nth-child(even),td:nth-child(even) {
+                background-color: rgba(150, 212, 212, 0.4);
+            }
+
+
+
+            .navegacao {
+                list-style-type: none;
+                margin: 2px;
+                padding: 0;
+                overflow: hidden;
+                background-color: #a71313;
+                width: max-content;
+            }
+
+            .navegacao li {
+                margin: 0;
+            }
+
+            .navegacao li {
+                float: left;
+            }
+
+            .navegacao li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+            .navegacao li a:hover {
+                background-color: #111111;
+            }
+        
         </style>
 
-        <title>Document</title>
+        
+
+        <title>INDEX1</title>
+        <link rel="icon" type="image/x-icon" href="./img/girl.jpg"> <!--FAVICON-->
     </head>
     <body>
         <a id="menu" href="#capitulo1">Capitulo 1</a>
@@ -208,11 +254,7 @@
 
         <br />
         <br />
-        <img
-            src="img/setim_rokage.jpg"
-            alt="setimo hokage"
-            style="float: right"
-        />
+        <img src="img/setim_rokage.jpg" alt="setimo hokage" style="float: right"/>
 
         <br /><br />
         <img src="img/workplace.jpg" alt="workplace" usemap="#workplace" />
@@ -223,6 +265,8 @@
                 coords="33,43,270,348"
                 onclick="computador()"
                 title="computador"
+                alt="pc"
+                href=""
                 style="cursor: pointer"
             />
             <area
@@ -230,14 +274,18 @@
                 coords="336,298,42"
                 style="cursor: pointer"
                 title="chixara"
+                alt="chixara"
                 onclick="xicara()"
+                href=""
             />
             <area
                 shape="poly"
                 coords="396,276,393,272,382,272,379,277,394,279"
                 style="cursor: pointer"
                 title="talher"
+                alt="talher"
                 onclick="talher()"
+                href=""
             />
         </map>
 
@@ -272,6 +320,18 @@
                     <td>81 9 9166 5664</td>
                     <td>81 9 6565 6558</td>
                 </tr>
+                <tr>
+                    <td>Josué Carlos</td>
+                    <td>24</td>
+                    <td>81 9 9166 5664</td>
+                    <td>81 9 6565 6558</td>
+                </tr>
+                <tr>
+                    <td>Josué Carlos</td>
+                    <td>24</td>
+                    <td>81 9 9166 5664</td>
+                    <td>81 9 6565 6558</td>
+                </tr>
             </tbody>
         </table>
 
@@ -292,9 +352,67 @@
             </tr>
         </table>
 
-        <br /><br />
+        <br />
+        
+        <table>
+            <colgroup>
+                <col span="2" >
+                <col span="1" style="background-color:red">
+                <col span="" style="background-color:yellow">
+            </colgroup>
+            <tr>
+              <th>ISBN</th>
+              <th>Title</th>
+              <th>Price</th>
+              <th>Price</th>
+              <th>Price</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>3476896</td>
+              <td>My first HTML</td>
+              <td>$53</td>
+              <td>$53</td>
+              <td>$53</td>
+              <td>$53</td>
+            </tr>
+            <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+            </tr>
+            <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+            </tr>
+            <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+            </tr>
+            <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+                <td>$53</td>
+            </tr>
+        </table>
+        
+        <br />
 
-        <ul style="list-style: circle">
+        <ul style="list-style-type:armenian;">
             <li>Lista</li>
             <li>Não</li>
             <li>Ordenada</li>
@@ -310,6 +428,13 @@
                 <li>Ordenada</li>
                 <li>Aninhada</li>
             </ul>
+        </ul>
+
+        <ul class="navegacao">
+            <li class="navegacao"><a href="#home">Home</a></li>
+            <li class="navegacao"><a href="#news">News</a></li>
+            <li class="navegacao"><a href="#contact">Contact</a></li>
+            <li class="navegacao"><a href="#about">About</a></li>
         </ul>
 
         <br /><br />
@@ -332,10 +457,10 @@
         <br />
         <dl>
             <dt>Lista</dt>
-            <dd>Descritiva</dd>
-            <dd>Descritiva</dd>
+                <dd>Descritiva</dd>
+                <dd>Descritiva</dd>
             <dt>Lista</dt>
-            <dd>Descritiva</dd>
+                <dd>Descritiva</dd>
         </dl>
 
         <br /><br />
