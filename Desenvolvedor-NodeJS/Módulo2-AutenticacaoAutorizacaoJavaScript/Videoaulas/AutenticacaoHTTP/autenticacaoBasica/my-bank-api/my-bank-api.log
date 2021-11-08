@@ -1,0 +1,367 @@
+2021-10-26T19:03:33.633Z --my-bank-api-- info: API Started!
+2021-10-26T19:07:24.758Z --my-bank-api-- info: API Started!
+2021-10-26T19:07:33.238Z --my-bank-api-- info: API Started!
+2021-10-26T19:08:44.594Z --my-bank-api-- info: API Started!
+2021-10-26T19:08:59.231Z --my-bank-api-- info: API Started!
+2021-10-26T19:10:13.853Z --my-bank-api-- info: API Started!
+2021-10-26T19:10:18.983Z --my-bank-api-- info: API Started!
+2021-10-26T19:13:34.675Z --my-bank-api-- info: API Started!
+2021-10-26T19:13:38.168Z --my-bank-api-- info: API Started!
+2021-10-26T19:14:23.732Z --my-bank-api-- info: API Started!
+2021-10-26T19:15:08.596Z --my-bank-api-- info: API Started!
+2021-10-26T19:15:15.680Z --my-bank-api-- info: API Started!
+2021-10-26T19:15:21.587Z --my-bank-api-- info: API Started!
+2021-10-26T19:17:34.993Z --my-bank-api-- info: API Started!
+2021-10-26T19:17:58.907Z --my-bank-api-- info: API Started!
+2021-10-26T19:21:54.315Z --my-bank-api-- info: API Started!
+2021-10-26T19:23:28.032Z --my-bank-api-- info: POST /account {"id":2,"balance":1}
+2021-10-26T22:29:59.682Z --my-bank-api-- info: API Started!
+2021-10-26T22:31:47.741Z --my-bank-api-- info: API Started!
+2021-10-26T22:32:02.830Z --my-bank-api-- info: API Started!
+2021-10-26T22:32:17.404Z --my-bank-api-- info: API Started!
+2021-10-26T22:32:44.608Z --my-bank-api-- info: API Started!
+2021-10-26T22:33:47.102Z --my-bank-api-- info: API Started!
+2021-10-26T22:33:51.274Z --my-bank-api-- info: API Started!
+2021-10-26T22:34:09.789Z --my-bank-api-- info: API Started!
+2021-10-26T22:34:16.777Z --my-bank-api-- info: API Started!
+2021-10-26T22:38:38.341Z --my-bank-api-- info: API Started!
+2021-10-26T22:39:23.579Z --my-bank-api-- info: API Started!
+2021-10-26T22:39:49.570Z --my-bank-api-- info: API Started!
+2021-10-26T22:40:21.264Z --my-bank-api-- info: API Started!
+2021-10-26T22:40:26.134Z --my-bank-api-- info: API Started!
+2021-10-26T22:41:24.334Z --my-bank-api-- info: API Started!
+2021-10-26T22:41:34.987Z --my-bank-api-- info: API Started!
+2021-10-26T22:42:13.429Z --my-bank-api-- info: API Started!
+2021-10-26T22:42:19.046Z --my-bank-api-- info: API Started!
+2021-10-26T22:42:31.885Z --my-bank-api-- info: API Started!
+2021-10-26T22:42:44.787Z --my-bank-api-- info: API Started!
+2021-10-26T22:43:12.943Z --my-bank-api-- info: API Started!
+2021-10-26T22:43:27.994Z --my-bank-api-- info: API Started!
+2021-10-26T22:45:13.782Z --my-bank-api-- info: API Started!
+2021-10-26T22:45:28.597Z --my-bank-api-- info: API Started!
+2021-10-26T22:46:20.637Z --my-bank-api-- info: API Started!
+2021-10-26T22:46:39.491Z --my-bank-api-- info: API Started!
+2021-10-26T22:46:55.938Z --my-bank-api-- info: GET /account 
+2021-10-26T22:47:18.888Z --my-bank-api-- info: API Started!
+2021-10-26T22:52:21.405Z --my-bank-api-- info: API Started!
+2021-10-26T22:57:36.551Z --my-bank-api-- info: API Started!
+2021-10-26T22:57:37.859Z --my-bank-api-- info: API Started!
+2021-10-26T22:58:20.849Z --my-bank-api-- info: API Started!
+2021-10-26T22:58:41.099Z --my-bank-api-- info: API Started!
+2021-10-26T22:59:05.825Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651,"balancee":56445,"asd":56445,"asddd":56445}
+2021-10-26T22:59:40.568Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651,"balancee":56445,"asd":56445,"asddd":56445}
+2021-10-26T23:00:20.770Z --my-bank-api-- info: API Started!
+2021-10-26T23:02:25.218Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651}
+2021-10-26T23:02:47.119Z --my-bank-api-- info: API Started!
+2021-10-26T23:02:48.372Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651}
+2021-10-26T23:03:50.165Z --my-bank-api-- info: API Started!
+2021-10-26T23:03:53.643Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651}
+2021-10-26T23:05:17.069Z --my-bank-api-- info: API Started!
+2021-10-26T23:05:18.708Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651}
+2021-10-26T23:05:48.823Z --my-bank-api-- info: API Started!
+2021-10-26T23:05:58.930Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651}
+2021-10-26T23:22:05.541Z --my-bank-api-- info: API Started!
+2021-10-26T23:22:36.872Z --my-bank-api-- info: API Started!
+2021-10-26T23:22:40.542Z --my-bank-api-- info: POST /account {"nome":"josue","balance":1651}
+2021-10-26T23:23:39.052Z --my-bank-api-- info: API Started!
+2021-10-26T23:23:42.243Z --my-bank-api-- info: POST /account {}
+2021-10-26T23:24:21.507Z --my-bank-api-- info: API Started!
+2021-10-26T23:24:24.762Z --my-bank-api-- info: POST /account {"id":5,"nome":"josue","balance":1651}
+2021-10-26T23:30:51.507Z --my-bank-api-- info: POST /account {"id":6,"nome":"josue","balance":1651}
+2021-10-26T23:31:08.514Z --my-bank-api-- info: POST /account {"id":7,"nome":"josue","balance":1653}
+2021-10-26T23:31:20.862Z --my-bank-api-- info: API Started!
+2021-10-26T23:31:21.813Z --my-bank-api-- info: POST /account {"id":8,"nome":"josue","balance":1653}
+2021-10-26T23:31:26.673Z --my-bank-api-- info: API Started!
+2021-10-26T23:31:49.600Z --my-bank-api-- info: API Started!
+2021-10-26T23:31:54.923Z --my-bank-api-- info: API Started!
+2021-10-26T23:32:31.575Z --my-bank-api-- info: API Started!
+2021-10-26T23:33:12.946Z --my-bank-api-- info: API Started!
+2021-10-26T23:33:30.665Z --my-bank-api-- info: API Started!
+2021-10-26T23:33:57.187Z --my-bank-api-- info: API Started!
+2021-10-26T23:34:03.255Z --my-bank-api-- info: GET /account 
+2021-10-26T23:34:37.246Z --my-bank-api-- info: API Started!
+2021-10-26T23:34:39.213Z --my-bank-api-- info: GET /account 
+2021-10-26T23:36:12.486Z --my-bank-api-- info: API Started!
+2021-10-26T23:36:14.862Z --my-bank-api-- info: GET /account 
+2021-10-26T23:37:24.227Z --my-bank-api-- info: API Started!
+2021-10-26T23:39:42.394Z --my-bank-api-- info: API Started!
+2021-10-26T23:40:11.424Z --my-bank-api-- info: API Started!
+2021-10-26T23:41:36.599Z --my-bank-api-- info: API Started!
+2021-10-26T23:41:47.045Z --my-bank-api-- info: API Started!
+2021-10-26T23:41:48.698Z --my-bank-api-- info: API Started!
+2021-10-26T23:42:48.649Z --my-bank-api-- info: API Started!
+2021-10-26T23:43:00.472Z --my-bank-api-- info: API Started!
+2021-10-26T23:43:10.893Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"aqui o pau qubera ","balance":56445}
+2021-10-26T23:43:15.996Z --my-bank-api-- info: GET /account/:8 {"id":8,"nome":"josue","balance":1653}
+2021-10-26T23:43:19.616Z --my-bank-api-- info: GET /account/:2 {"id":2,"nome":"josue","balance":1651}
+2021-10-26T23:43:40.992Z --my-bank-api-- info: API Started!
+2021-10-26T23:43:58.097Z --my-bank-api-- info: API Started!
+2021-10-26T23:44:43.181Z --my-bank-api-- info: GET /account/:2 {"id":2,"nome":"josue","balance":1651}
+2021-10-26T23:45:39.486Z --my-bank-api-- info: API Started!
+2021-10-26T23:45:42.386Z --my-bank-api-- info: GET /account/:33 --- Não temos o ID 33 registrado no sistema }
+2021-10-26T23:45:57.043Z --my-bank-api-- info: API Started!
+2021-10-26T23:49:37.660Z --my-bank-api-- info: API Started!
+2021-10-26T23:50:01.917Z --my-bank-api-- info: API Started!
+2021-10-26T23:50:21.982Z --my-bank-api-- info: API Started!
+2021-10-26T23:50:28.219Z --my-bank-api-- info: API Started!
+2021-10-26T23:50:37.735Z --my-bank-api-- info: API Started!
+2021-10-26T23:50:48.122Z --my-bank-api-- info: API Started!
+2021-10-26T23:51:22.881Z --my-bank-api-- info: API Started!
+2021-10-26T23:51:24.182Z --my-bank-api-- info: API Started!
+2021-10-26T23:51:38.684Z --my-bank-api-- info: API Started!
+2021-10-26T23:53:28.966Z --my-bank-api-- info: API Started!
+2021-10-26T23:53:56.196Z --my-bank-api-- info: API Started!
+2021-10-26T23:54:16.807Z --my-bank-api-- info: API Started!
+2021-10-26T23:54:37.026Z --my-bank-api-- info: API Started!
+2021-10-26T23:54:59.293Z --my-bank-api-- info: API Started!
+2021-10-26T23:55:00.745Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-26T23:55:23.955Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-26T23:56:20.444Z --my-bank-api-- info: API Started!
+2021-10-26T23:56:33.911Z --my-bank-api-- info: API Started!
+2021-10-26T23:56:39.310Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-26T23:56:48.775Z --my-bank-api-- info: API Started!
+2021-10-26T23:56:50.349Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-26T23:57:20.543Z --my-bank-api-- info: API Started!
+2021-10-26T23:57:22.813Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-26T23:57:47.238Z --my-bank-api-- info: API Started!
+2021-10-26T23:57:49.712Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-26T23:58:36.221Z --my-bank-api-- info: API Started!
+2021-10-26T23:58:42.751Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-26T23:58:47.889Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-27T00:02:41.386Z --my-bank-api-- info: API Started!
+2021-10-27T00:02:45.838Z --my-bank-api-- info: API Started!
+2021-10-27T00:02:47.797Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-27T00:03:30.295Z --my-bank-api-- info: API Started!
+2021-10-27T00:03:41.911Z --my-bank-api-- info: API Started!
+2021-10-27T00:04:21.135Z --my-bank-api-- info: API Started!
+2021-10-27T00:04:22.750Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-27T00:04:41.567Z --my-bank-api-- info: API Started!
+2021-10-27T00:04:42.647Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-27T00:05:15.329Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-27T00:09:19.136Z --my-bank-api-- info: API Started!
+2021-10-27T00:09:31.674Z --my-bank-api-- info: API Started!
+2021-10-27T00:09:38.042Z --my-bank-api-- error: DELETE /account - req is not defined 
+2021-10-27T00:10:13.632Z --my-bank-api-- info: API Started!
+2021-10-27T00:10:17.030Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T00:10:40.333Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:10:47.732Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:11:13.815Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:11:44.961Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T00:11:55.719Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T00:12:41.877Z --my-bank-api-- info: API Started!
+2021-10-27T00:12:44.463Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:12:56.224Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:13:04.656Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T00:13:11.870Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T00:13:28.810Z --my-bank-api-- info: API Started!
+2021-10-27T00:13:45.416Z --my-bank-api-- info: API Started!
+2021-10-27T00:14:29.723Z --my-bank-api-- info: API Started!
+2021-10-27T00:14:34.813Z --my-bank-api-- info: DELETE /account:7 {"id":7,"nome":"josue","balance":1653}
+2021-10-27T00:16:07.954Z --my-bank-api-- info: API Started!
+2021-10-27T00:16:12.437Z --my-bank-api-- info: API Started!
+2021-10-27T00:16:17.513Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:16:39.462Z --my-bank-api-- info: API Started!
+2021-10-27T00:16:44.123Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:20:00.982Z --my-bank-api-- info: API Started!
+2021-10-27T00:20:03.227Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:20:42.704Z --my-bank-api-- info: API Started!
+2021-10-27T00:20:43.986Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:21:35.182Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:21:45.774Z --my-bank-api-- info: DELETE /account:8 {"id":8,"nome":"josue","balance":1653}
+2021-10-27T00:22:27.512Z --my-bank-api-- info: POST /account {"id":1,"nome":"josue","balance":1653}
+2021-10-27T00:22:33.917Z --my-bank-api-- info: POST /account {"id":2,"nome":"carlos","balance":1653}
+2021-10-27T00:22:39.386Z --my-bank-api-- info: POST /account {"id":3,"nome":"marina","balance":1653}
+2021-10-27T00:22:47.134Z --my-bank-api-- info: DELETE /account:1 {"id":1,"nome":"josue","balance":1653}
+2021-10-27T00:22:51.624Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T00:23:40.177Z --my-bank-api-- info: API Started!
+2021-10-27T00:23:44.033Z --my-bank-api-- info: DELETE /account:1 {"id":1}
+2021-10-27T00:23:48.060Z --my-bank-api-- info: DELETE /account:3 {"id":3}
+2021-10-27T00:23:51.950Z --my-bank-api-- info: DELETE /account:2 {"id":2}
+2021-10-27T01:27:42.139Z --my-bank-api-- info: API Started!
+2021-10-27T01:27:52.462Z --my-bank-api-- info: DELETE /account:2 {"id":2}
+2021-10-27T01:29:18.468Z --my-bank-api-- info: API Started!
+2021-10-27T01:29:25.419Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T01:29:31.520Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T01:29:52.839Z --my-bank-api-- info: API Started!
+2021-10-27T01:29:57.065Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T01:30:25.711Z --my-bank-api-- info: API Started!
+2021-10-27T01:30:53.107Z --my-bank-api-- info: API Started!
+2021-10-27T01:30:56.771Z --my-bank-api-- info: DELETE /account:2 {"id":2,"nome":"carlos","balance":1653}
+2021-10-27T01:31:03.361Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:34:27.823Z --my-bank-api-- info: API Started!
+2021-10-27T01:34:30.710Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:34:43.434Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:34:50.939Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:35:07.654Z --my-bank-api-- info: API Started!
+2021-10-27T01:35:15.317Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:35:37.614Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:36:15.310Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:36:24.561Z --my-bank-api-- info: API Started!
+2021-10-27T01:36:26.455Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:36:41.470Z --my-bank-api-- info: API Started!
+2021-10-27T01:39:11.088Z --my-bank-api-- info: API Started!
+2021-10-27T01:39:32.341Z --my-bank-api-- info: API Started!
+2021-10-27T01:39:37.305Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:39:51.790Z --my-bank-api-- error: DELETE /account - Cannot read property 'id' of null 
+2021-10-27T01:41:00.732Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T01:41:16.872Z --my-bank-api-- error: DELETE /account - account is not defined 
+2021-10-27T01:41:59.888Z --my-bank-api-- info: API Started!
+2021-10-27T01:42:38.079Z --my-bank-api-- info: API Started!
+2021-10-27T01:44:10.886Z --my-bank-api-- info: API Started!
+2021-10-27T01:44:14.826Z --my-bank-api-- info: DELETE /account:2 [{"id":3,"nome":"marina","balance":1653}]
+2021-10-27T01:44:25.422Z --my-bank-api-- info: DELETE /account:3 []
+2021-10-27T01:44:34.323Z --my-bank-api-- info: DELETE /account:3 [{"id":1,"nome":"josue","balance":1653},{"id":2,"nome":"carlos","balance":1653}]
+2021-10-27T01:46:59.843Z --my-bank-api-- info: API Started!
+2021-10-27T01:47:36.399Z --my-bank-api-- info: API Started!
+2021-10-27T01:47:53.520Z --my-bank-api-- info: API Started!
+2021-10-27T01:48:09.335Z --my-bank-api-- info: DELETE /account:2 {"id":2,"nome":"carlos","balance":1653}
+2021-10-27T01:48:42.903Z --my-bank-api-- info: DELETE /account:22 undefined
+2021-10-27T01:49:39.585Z --my-bank-api-- info: API Started!
+2021-10-27T01:49:41.604Z --my-bank-api-- info: Não temos o ID 22 registrado no sistema
+2021-10-27T01:50:06.472Z --my-bank-api-- info: API Started!
+2021-10-27T01:50:10.412Z --my-bank-api-- info: API Started!
+2021-10-27T01:56:52.263Z --my-bank-api-- info: API Started!
+2021-10-27T01:57:07.734Z --my-bank-api-- info: API Started!
+2021-10-27T01:57:08.465Z --my-bank-api-- info: API Started!
+2021-10-27T01:58:53.974Z --my-bank-api-- info: API Started!
+2021-10-27T01:59:36.068Z --my-bank-api-- info: API Started!
+2021-10-27T01:59:52.250Z --my-bank-api-- info: API Started!
+2021-10-27T02:01:05.260Z --my-bank-api-- info: API Started!
+2021-10-27T02:02:26.466Z --my-bank-api-- info: API Started!
+2021-10-27T02:02:37.285Z --my-bank-api-- info: API Started!
+2021-10-27T02:03:10.212Z --my-bank-api-- info: atualizado com sucesso
+2021-10-27T02:04:04.794Z --my-bank-api-- info: API Started!
+2021-10-27T02:04:14.429Z --my-bank-api-- info: API Started!
+2021-10-27T02:05:52.003Z --my-bank-api-- info: API Started!
+2021-10-27T02:07:08.852Z --my-bank-api-- info: API Started!
+2021-10-27T02:07:43.060Z --my-bank-api-- info: API Started!
+2021-10-27T02:07:47.142Z --my-bank-api-- info: API Started!
+2021-10-27T02:08:24.197Z --my-bank-api-- info: API Started!
+2021-10-27T02:09:10.772Z --my-bank-api-- info: atualizado com sucesso o balance- {"id":1,"nome":"marina","balance":1653}{"id":1,"nome":"marina","balance":1}
+2021-10-27T02:09:44.661Z --my-bank-api-- info: API Started!
+2021-10-27T02:09:57.709Z --my-bank-api-- info: API Started!
+2021-10-27T02:09:59.895Z --my-bank-api-- info: API Started!
+2021-10-27T02:10:03.806Z --my-bank-api-- info: API Started!
+2021-10-27T02:11:07.816Z --my-bank-api-- info: ID nao encontrado
+2021-10-27T02:11:29.652Z --my-bank-api-- info: API Started!
+2021-10-27T02:11:32.343Z --my-bank-api-- info: ID nao encontrado - atualizacoa do updateBalance
+2021-10-27T02:12:09.392Z --my-bank-api-- info: API Started!
+2021-10-27T02:12:12.006Z --my-bank-api-- info: API Started!
+2021-10-27T02:21:54.532Z --my-bank-api-- info: API Started!
+2021-10-27T02:21:56.048Z --my-bank-api-- info: API Started!
+2021-10-27T02:23:35.455Z --my-bank-api-- info: API Started!
+2021-10-27T02:23:38.934Z --my-bank-api-- info: API Started!
+2021-10-27T02:28:08.062Z --my-bank-api-- info: API Started!
+2021-10-27T02:32:32.954Z --my-bank-api-- info: API Started!
+2021-10-27T02:33:28.124Z --my-bank-api-- info: API Started!
+2021-10-27T02:33:32.814Z --my-bank-api-- info: API Started!
+2021-10-27T02:35:18.555Z --my-bank-api-- info: API Started!
+2021-10-27T02:36:05.250Z --my-bank-api-- info: API Started!
+2021-10-27T02:37:01.825Z --my-bank-api-- info: GET /account 
+2021-10-27T02:38:58.689Z --my-bank-api-- info: API Started!
+2021-10-27T02:39:54.759Z --my-bank-api-- info: API Started!
+2021-10-27T02:41:25.306Z --my-bank-api-- info: API Started!
+2021-10-27T02:41:37.304Z --my-bank-api-- info: API Started!
+2021-10-27T02:42:54.151Z --my-bank-api-- info: API Started!
+2021-10-27T02:43:54.390Z --my-bank-api-- info: API Started!
+2021-10-27T02:44:23.618Z --my-bank-api-- info: API Started!
+2021-10-27T02:44:30.079Z --my-bank-api-- info: GET /account/:2 {"id":2,"nome":"carlos","balance":1653}
+2021-10-27T02:44:51.992Z --my-bank-api-- info: API Started!
+2021-10-27T02:48:22.081Z --my-bank-api-- info: API Started!
+2021-10-27T02:48:31.374Z --my-bank-api-- info: API Started!
+2021-10-27T02:50:00.243Z --my-bank-api-- info: API Started!
+2021-10-27T02:50:07.535Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:50:15.827Z --my-bank-api-- info: GET /account 
+2021-10-27T02:50:27.741Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:51:24.640Z --my-bank-api-- info: API Started!
+2021-10-27T02:51:26.159Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:51:32.591Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:51:53.349Z --my-bank-api-- info: API Started!
+2021-10-27T02:51:55.261Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:52:02.337Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:52:04.962Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:52:16.167Z --my-bank-api-- info: API Started!
+2021-10-27T02:52:18.215Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:53:12.200Z --my-bank-api-- info: API Started!
+2021-10-27T02:53:14.293Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:54:25.728Z --my-bank-api-- info: Não temos o ID 2 registrado no sistema
+2021-10-27T02:54:41.290Z --my-bank-api-- info: API Started!
+2021-10-27T02:54:44.399Z --my-bank-api-- info: DELETE /account:1 {"id":1,"nome":"marina","balance":1}
+2021-10-27T02:54:50.651Z --my-bank-api-- info: DELETE /account:2 {"id":2,"nome":"carlos","balance":1653}
+2021-10-27T02:55:03.126Z --my-bank-api-- info: API Started!
+2021-10-27T02:55:27.229Z --my-bank-api-- info: API Started!
+2021-10-27T02:56:49.050Z --my-bank-api-- info: API Started!
+2021-10-27T02:59:05.100Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-27T02:59:11.641Z --my-bank-api-- info: API Started!
+2021-10-27T02:59:30.141Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-27T02:59:43.611Z --my-bank-api-- info: atualizado com sucesso
+2021-10-27T03:00:23.278Z --my-bank-api-- info: API Started!
+2021-10-27T03:00:43.186Z --my-bank-api-- info: API Started!
+2021-10-27T03:01:38.666Z --my-bank-api-- info: API Started!
+2021-10-27T03:02:02.917Z --my-bank-api-- info: atualizado com sucesso o balance- {"id":1,"nome":"marcos aurelio","balance":1}{"id":1,"nome":"marcos aurelio","balance":100000}
+2021-10-27T03:02:21.021Z --my-bank-api-- info: API Started!
+2021-10-27T03:09:54.062Z --my-bank-api-- info: API Started!
+2021-10-27T03:10:05.355Z --my-bank-api-- info: GET /account 
+2021-10-27T03:10:17.101Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":100000}
+2021-10-27T03:10:17.103Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-27T03:13:29.977Z --my-bank-api-- info: API Started!
+2021-10-27T03:13:32.136Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":100000}
+2021-10-27T03:13:32.140Z --my-bank-api-- info: registro ID NAO ENCONTRADO
+2021-10-27T03:14:02.103Z --my-bank-api-- info: API Started!
+2021-10-27T03:14:04.597Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":100000}
+2021-10-27T03:14:04.601Z --my-bank-api-- error: PATCH /account - Found non-callable @@iterator 
+2021-10-27T03:14:18.335Z --my-bank-api-- info: API Started!
+2021-10-27T03:14:58.750Z --my-bank-api-- info: API Started!
+2021-10-27T03:15:02.846Z --my-bank-api-- info: GET /account/:1 {"id":1,"nome":"marcos aurelio","balance":100000}
+2021-10-27T03:15:02.851Z --my-bank-api-- info: atualizado com sucesso
+2021-10-27T03:15:13.252Z --my-bank-api-- info: API Started!
+2021-10-27T03:15:46.160Z --my-bank-api-- info: API Started!
+2021-10-27T03:16:07.810Z --my-bank-api-- info: API Started!
+2021-10-27T22:02:21.290Z --my-bank-api-- info: API Started!
+2021-10-27T22:04:37.481Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-27T22:05:01.617Z --my-bank-api-- info: API Started!
+2021-10-27T22:05:03.783Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-27T22:05:18.850Z --my-bank-api-- info: API Started!
+2021-10-27T22:05:19.766Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-10-27T22:05:30.887Z --my-bank-api-- info: API Started!
+2021-10-27T22:05:31.588Z --my-bank-api-- error: POST /account - o nome e o balance são itens obrigatorios 
+2021-11-08T20:33:24.139Z --my-bank-api-- info: API Started!
+2021-11-08T20:36:12.113Z --my-bank-api-- info: GET /account 
+2021-11-08T20:43:25.885Z --my-bank-api-- info: API Started!
+2021-11-08T20:46:30.890Z --my-bank-api-- info: API Started!
+2021-11-08T20:47:08.307Z --my-bank-api-- info: API Started!
+2021-11-08T20:48:19.318Z --my-bank-api-- info: API Started!
+2021-11-08T20:53:40.031Z --my-bank-api-- info: API Started!
+2021-11-08T20:54:25.159Z --my-bank-api-- info: API Started!
+2021-11-08T20:54:38.033Z --my-bank-api-- info: GET /account 
+2021-11-08T21:05:40.069Z --my-bank-api-- info: API Started!
+2021-11-08T21:06:35.007Z --my-bank-api-- info: API Started!
+2021-11-08T21:08:08.700Z --my-bank-api-- info: API Started!
+2021-11-08T21:12:44.822Z --my-bank-api-- info: API Started!
+2021-11-08T21:13:13.936Z --my-bank-api-- info: API Started!
+2021-11-08T21:14:45.250Z --my-bank-api-- info: API Started!
+2021-11-08T21:17:54.336Z --my-bank-api-- info: API Started!
+2021-11-08T21:20:00.458Z --my-bank-api-- info: API Started!
+2021-11-08T21:20:57.368Z --my-bank-api-- info: API Started!
+2021-11-08T21:21:33.445Z --my-bank-api-- info: API Started!
+2021-11-08T21:22:03.734Z --my-bank-api-- info: API Started!
+2021-11-08T21:26:19.155Z --my-bank-api-- info: API Started!
+2021-11-08T21:26:42.022Z --my-bank-api-- info: API Started!
+2021-11-08T21:27:12.793Z --my-bank-api-- info: API Started!
+2021-11-08T21:30:59.867Z --my-bank-api-- info: API Started!
+2021-11-08T21:33:57.975Z --my-bank-api-- info: API Started!
+2021-11-08T21:34:28.774Z --my-bank-api-- info: API Started!
+2021-11-08T21:35:40.835Z --my-bank-api-- info: API Started!
+2021-11-08T21:38:47.060Z --my-bank-api-- info: API Started!
+2021-11-08T21:38:54.080Z --my-bank-api-- info: API Started!
+2021-11-08T21:39:16.049Z --my-bank-api-- info: API Started!
+2021-11-08T21:39:52.815Z --my-bank-api-- info: API Started!
+2021-11-08T21:41:02.716Z --my-bank-api-- info: API Started!
+2021-11-08T21:41:10.449Z --my-bank-api-- info: API Started!
+2021-11-08T21:42:29.548Z --my-bank-api-- info: API Started!
+2021-11-08T21:43:25.196Z --my-bank-api-- info: API Started!
+2021-11-08T21:44:18.273Z --my-bank-api-- info: API Started!
+2021-11-08T21:44:22.152Z --my-bank-api-- info: GET /account 
+2021-11-08T21:45:10.477Z --my-bank-api-- info: API Started!
+2021-11-08T21:45:12.640Z --my-bank-api-- info: GET /account 
+2021-11-08T21:45:20.450Z --my-bank-api-- info: GET /account 
