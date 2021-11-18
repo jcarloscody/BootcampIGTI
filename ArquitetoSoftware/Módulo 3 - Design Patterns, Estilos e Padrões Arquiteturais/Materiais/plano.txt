@@ -1,0 +1,144 @@
+Plano de ensino do Módulo 3
+Design Patterns, Estilos e Padrões Arquiteturais
+
+ 
+
+Capítulo 1 - Introdução  
+
+1.1 Introdução à Arquitetura de Software 
+
+1.2 O Arquiteto de Software 
+
+1.3 Terminologia em Arquitetura de Software 
+
+1.4 Padrões na Arquitetura de Software 
+
+1.5 Paradigma de Programação Orientada a Objetos 
+
+1.6 Code Smells e Análise Estática de Código  
+
+1.7 Os Princípios de Projetos SOLID 
+
+1.8 Injeção de Dependência 
+
+ 
+
+Capítulo 2 – Catálogo de Padrões 
+
+2.1 Os Principais Catálogos de Padrões 
+
+2.2 Anti Patterns 
+
+2.3 Design Patterns 
+
+ 
+
+Capítulo 3 - Design Patterns (GoF) – Creational Patterns 
+
+3.1 Abstract Factory 
+
+3.2 Factory Method 
+
+3.3 Singleton 
+
+ 
+
+Capítulo 4 - Design Patterns (GoF) – Structual Patterns 
+
+4.1 Adapter 
+
+4.2 Composite 
+
+4.3 Decorator 
+
+4.4 Facade 
+
+ 
+
+Capítulo 5 - Design Patterns (GoF) – Behavioral Patterns 
+
+5.1 Command 
+
+5.2 Iterator 
+
+5.3 Observer 
+
+5.4 Template Method 
+
+ 
+
+Primeira Aula Interativa 
+
+Trabalho Prático 
+
+ 
+
+ 
+
+Capítulo 6 – Padrões de Acesso à Dados 
+
+6.1 Introdução 
+
+6.2 Object Relational Mapping (ORM) 
+
+6.3 Padrões Base 
+
+6.4 Active Record 
+
+6.5 Data Mapper 
+
+6.6 Unit of Work 
+
+6.7 Repository  
+
+ 
+
+Capítulo 7 - Estilos e Padrões Arquiteturais 
+
+7.1 Introdução a Estilos e Padrões Arquiteturais 
+
+7.2 Arquitetura Multicamadas 
+
+7.3 Arquitetura Cliente Servidor e N-Tier 
+
+7.4 Model View Controller (MVC) 
+
+7.5 Model View Presenter (MVP) 
+
+7.6 Model View ViewModel (MVVM) 
+
+7.7 Single Page Applications (SPA) 
+
+7.8 Demonstração: SPA 
+
+7.9 Clean Architecture 
+
+ 
+
+Capítulo 8 – Arquiteturas para Sistemas Distribuídos 
+
+8.1 Introdução a Sistemas Distribuídos 
+
+8.2 Modelos Arquiteturais em SD 
+
+8.3 Middlewares  
+
+8.4 Middlewares Orientados a Objetos 
+
+8.5 Demonstração: Middlewares Orientados a Objetos 
+
+8.6 Middlewares Orientados a Mensagens 
+
+8.7 Web Services 
+
+8.8 Demonstração: Web Services 
+
+8.9 Representation State Transfer (REST) 
+
+8.10 Enterprise Application Integration (EAI) 
+
+8.11 Service Oriented Architecture (SOA) 
+
+8.12 SOA – Governança e Categorias de Serviços 
+
+8.13 Enterprise Service Bus (ESB) 

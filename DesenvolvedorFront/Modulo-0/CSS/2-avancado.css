@@ -1,0 +1,706 @@
+/*Cantos Arredondados CSS*/
+*{border-radius: 25px;} /*border-top-left-radius, border-top-right-radius, border-bottom-right-radius e border-bottom-left-radius*/
+
+/*IMAGEM BORDA*/
+*{border-image: url(border.png) 30 stretch;} /*stretch*/
+
+
+/*MULTIPLOS BACKGROUND - várias imagens de fundo a um elemento*/
+*{
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    /*background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;*/
+    background-size: 100px 80px; /*tamanho - px, contain e cover */
+    background-origin: content-box; /*especifica onde a imagem de fundo é posicionada.  border-box, padding-box, content-box*/
+    background-clip: content-box;/* especifica a área de pintura do fundo.*/
+}
+
+
+/*palavras chaves  inherit  currentcolor  transparent*/
+*{
+    background-color: transparent;
+    background-color: currentcolor;/* variável que contém o valor atual da propriedade de cor de um elemento.*/
+    border: inherit; /*especifica que uma propriedade deve herdar seu valor de seu elemento pai*/
+}
+
+
+
+/*Gradientes CSS   exiba transições suaves entre duas ou mais cores especificadas*/
+*{
+    /*linear*/
+    background-image: linear-gradient(red, yellow); /*gradiente linear, você deve definir pelo menos duas interrupções de cor.*/
+    background-image: linear-gradient(to right, red , yellow);/*esquerda - direito */
+    background-image: linear-gradient(to bottom right, red, yellow); /*canto superior esquerdo (e vai para o canto inferior direito)*/
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%); /*é usada para repetir gradientes lineares. necessário usar backgroud-image*/
+    /*radial - definido pelo centro*/
+    background-image: radial-gradient(red, yellow, green);
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+    background-image: radial-gradient(circle, red, yellow, green); /*define forma*/
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);/*closest-side(lado mais próximo) farthest-side (lado mais distante) closest-corner (esquina mais próxima) farthest-corner ()*/
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+
+/*Efeitos de sombra CSS     Shadow Effects*/
+*{
+    text-shadow: 2px 2px;
+    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px 5px red;/*horizontal vertical desfalque*/
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;/*multiplas sombras*/
+    box-shadow: 10px 10px;/*para caixas*/
+    
+}
+
+
+
+
+/*Estouro de texto CSS , quebra de linha, regras de quebra de linha e modos de escrita*/
+p.test1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip; /* especifica como o conteúdo transbordado que não é exibido deve ser sinalizado para o usuário.   (clip-cortado, ellipsis-...)*/
+    word-wrap: break-word; /*permite que palavras longas possam ser quebradas e quebradas na próxima linha.   */
+    word-break: keep-all; /*especifica regras de quebra de linha.        (keep-all, break-all)*/
+    writing-mode: horizontal-tb; /*especifica se as linhas de texto são dispostas horizontal ou verticalmente.     (vertical-rl, horizontal-tb)*/
+}
+
+
+
+
+/*CSS Web Fonts*/
+@font-face { /*o @ é para criar minha fonte*/
+    font-family: minha-propria-fonte;/*nome que posso chamar*/
+    src: url(sansation_light.woff); /*de onde estou tirando a fonte*/
+    font-weight: bold;
+ }
+ *{
+     font-family: minha-propria-fonte;
+ }
+ 
+
+
+
+ /*CSS 2D Transforms*/
+div {
+    transform: translate(50px, 100px);/*move o elemento <div> 50 pixels para a direita e 100 pixels para baixo de sua posição atual*/
+    transform: rotate(20deg); /*gira um elemento no sentido horário ou anti-horário de acordo com um determinado grau*/
+    transform: scale(2, 3); /*aumenta ou diminui o tamanho de um elemento. aumenta o elemento <div> para duas vezes de sua largura original e três vezes de sua altura original:*/
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: skewX(20deg); /*inclina um elemento ao longo do eixo X   . inclina o elemento <div> 20 graus ao longo do eixo X*/
+    transform: skew(20deg, 10deg);/*eixos X e Y*/
+    transform: matrix(1, -0.3, 0, 1, 0, 0); /* combina todos os métodos de transformação 2D em um    matrix (scaleX (), skewY (), skewX (), scaleY (), translateX (), translateY ())*/
+
+}
+
+
+
+/*Métodos de transformação CSS 3D*/
+#myDiv {
+    transform: rotateX(150deg); /* gira um elemento em torno de seu eixo X em um determinado grau*/
+    transform: rotateY(150deg); /*transform: rotateY(150deg);*/
+    transform: rotateY(150deg); /*transform: rotateY(150deg);*/
+}
+
+
+
+
+
+
+/*    CSS Transitions         permitem que você altere os valores das propriedades suavemente, durante um determinado período. */
+/*você deve especificar duas coisas:
+
+a propriedade CSS à qual você deseja adicionar um efeito
+a duração do efeito*/
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;/*pega essas propriedades e coloca o efeito quando der houver*/
+    transition-delay: 1s;/*atraso de 1 segundo se quiser*/
+  }
+  
+  div:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+/*propriedade especifica a curva de velocidade do efeito de transição*/
+#div1 {transition-timing-function: linear;} /*especifica um efeito de transição com a mesma velocidade do início ao fim*/
+#div2 {transition-timing-function: ease;}/*especifica um efeito de transição com início lento, depois rápido e, a seguir, fim lento (é o padrão)*/
+#div3 {transition-timing-function: ease-in;}/* especifica um efeito de transição com um início lento*/
+#div4 {transition-timing-function: ease-out;}/* especifica um efeito de transição com um início lento*/
+#div5 {transition-timing-function: ease-in-out;}/*especifica um efeito de transição com início e fim lentos*/
+
+
+
+
+
+
+
+
+
+
+/*      O que são animações CSS?          Uma animação permite que um elemento mude gradualmente de um estilo para outro
+Para usar animação CSS, você deve primeiro especificar alguns quadros-chave para a animação.
+
+Os quadros-chave contêm os estilos que o elemento terá em determinados momentos  */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s; /*atraso se quiser*/
+    animation-iteration-count: 3;/*define o numero de vezes que uma animacao deve ser exe*/
+    animation-direction: reverse;/*reproducao para frente, para trás ou em ciclos alternados       normal, alternate, alternate-reverse*/
+
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+#div1 {animation-timing-function: linear;}
+
+/*outro exemplo*/
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/*outro */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+/*CSS Tooltip              Crie dicas de ferramentas com CSS.*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  /*exemplo 2*/
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  /*<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>*/
+
+
+
+
+
+/*IMAGENS
+
+https://www.w3schools.com/css/css3_images.asp */
+
+
+
+
+
+
+/*  Reflexão de imagem CSS     --- */
+
+img {
+  -webkit-box-reflect: below; /*above, left, right*/
+  -webkit-box-reflect: below 20px; /*lacuna entre as imagens*/
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); /*com gradiente*/
+}
+/*<img src="img_tree.png">*/
+
+
+
+
+
+
+/*   CSS A propriedade de ajuste do objeto The object-fit Property 
+A object-fitpropriedade CSS é usada para especificar como um <img> ou <video> deve ser redimensionado para caber em seu contêiner.*/
+
+/*valores:
+fill- Este é o padrão. A imagem é redimensionada para preencher a dimensão fornecida. Se necessário, a imagem será esticada ou comprimida para caber
+contain - A imagem mantém sua proporção, mas é redimensionada para caber na dimensão fornecida
+cover- A imagem mantém sua proporção e preenche a dimensão fornecida. A imagem será cortada para caber
+none - A imagem não foi redimensionada
+scale-down- a imagem é reduzida para a menor versão de noneou contain*/
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/*      CSS A propriedade object-position     
+object-positionpropriedade CSS é usada para especificar como um <img> ou <video> deve ser posicionado em seu contêiner. */
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover; /*vai fazer o efeito de corte*/
+  object-position: 80% 100%;/*aqui vai posicionar o local desejado.        horizontal-vertical*/
+}
+
+
+
+
+
+
+/*Botões CSS */
+/*https://www.w3schools.com/css/css3_buttons.asp*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*<button class="button" style="vertical-align:middle"><span>Hover </span></button>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS Pagination Examples        */
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a class="active" href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*        CSS Multiple Columns 
+ layout CSS de várias colunas permite fácil definição de várias colunas de texto - assim como nos jornais*/
+
+ .newspaper {/*div por exemplo*/
+  column-count: 3; /*especifica o número de colunas em que um elemento deve ser dividido*/
+  column-gap: 40px; /* especifica a lacuna entre as colunas.*/
+  column-rule-style: solid; /*especifica o estilo da regra entre as colunas*/
+  column-rule-width: 1px;
+  column-rule-color: lightblue;
+  /*column-rule: 1px solid lightblue;*/
+  column-width: 100px;/*especifica que a largura ideal sugerida para as colunas deve ser 100 px*/
+
+
+}
+
+h2 {
+  column-span: all;/*especifica quantas colunas um elemento deve se estender. O exemplo a seguir especifica que o elemento <h2> deve se estender por todas as colunas*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Interface de usuário CSS
+
+Redimensionar CSS*/
+div {
+  resize: horizontal; /*vertical, both, none.        permite o usuário dimensionar o elemento*/
+  overflow: auto;
+}
+
+/*CSS Outline Offset adiciona espaço entre um contorno e a borda */
+div.ex1 {
+  margin: 20px;
+  border: 1px solid black;
+  outline: 4px solid red;
+  outline-offset: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Variáveis ​​CSS - A função var ()              https://www.w3schools.com/css/css3_variables.asp*/
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body { background-color: var(--blue); }
+
+h2 { border-bottom: 2px solid var(--blue); }
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+
+
+/*Variáveis ​​de substituição CSS
+
+Substituindo Variáveis ​​Globais por Variáveis ​​Locais*/
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  --blue: #0000ff; /*Vemos que a variável --blue local substituirá a variável --blue global para os elementos do botão:*/
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+/*Adicionar uma nova variável local*/
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  --button-blue: #0000ff;/*Se uma variável deve ser usada apenas em um único lugar, também poderíamos ter declarado uma nova variável local*/
+  background-color: var(--white);
+  color: var(--button-blue);
+  border: 1px solid var(--button-blue);
+  padding: 5px;
+}
+
+
+
+/*CSS Change Variables With JavaScript
+Variáveis ​​CSS têm acesso ao DOM, o que significa que você pode alterá-las com JavaScript.*/
+/*https://www.w3schools.com/css/css3_variables_javascript.asp*/
+
+
+
+
+
+
+/*CSS Box Sizing            Dimensionamento da caixa CSS*/
+/* incluir o preenchimento e a borda na largura e altura total de um elemento*/
+
+/*calculo padrao: largura + preenchimento + borda = largura real de um elemento
+altura + preenchimento + borda = altura real de um elemento*/
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;/*propriedade nos permite incluir o preenchimento e a borda na largura e altura total de um elemento*/
+}
+
+
+
+
+
+
+
+/*CSS Media Queries             Consultas de mídia CSS*/
+/*A @mediaregra, introduzida no CSS2, possibilitou definir regras de estilo diferentes para tipos de mídia diferentes.
+
+TIPOS DE MIDIAS:
+all    Usado para todos os dispositivos de tipo de mídia
+print   impressoras
+screen     Usado para telas de computador, tablets, smartphones etc.
+speech     Usado para leitores de tela que "lêem" a página em voz alta*/
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen; /* altera a cor de fundo para verde claro se a janela de visualização tiver 480 pixels de largura ou mais*/
+  }
+}
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS Flexbox                     */
+.flex-container {
+  display: flex;/*definir o elemento pai com flex*/
+  flex-direction: column;/*definir a direção: column(vertical), column-reverse(vertical de baixo para cima), row(linha esquerda para direita), row-reverse(linha da direita para esquerda)*/
+  flex-wrap: wrap;/*se  devem ser agrupados ou não: wrap(serão agrupados, se necessário), nowrap(não serão agrupados), wrap-reverse(serão agrupados, se necessário, na ordem inversa)*/
+  /*flex-flow: row wrap;abreviada para definir as propriedades flex-directione flex-wrap.*/
+  justify-content: center;/*alinhar os itens flexíveis. center, flex-start(flexíveis no início do contêiner), flex-end(itens flexíveis no final do contêiner), space-around( flexíveis com espaço antes, entre e depois das linhas)
+  space-between( itens flexíveis com espaço entre as linhas)*/
+  align-items: center; /*alinhar os itens flexíveis.    flex-start, flex-end, stretch, baseline*/
+  align-content: space-between; /*alinhar as linhas flexíveis:  space-between, space-around, stretch, center, flex-start, flex-end*/
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*
+<div class="flex-container">
+  <div style="order: 3">1</div>  especifica a ordem dos itens flexíveis
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div>
+  <div style="order: 1">4</div>
+</div>
+
+<div class="flex-container">
+  <div style="flex-grow: 1">1</div>especifica quanto um flex item crescerá em relação ao resto dos flex items
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
+</div>
+
+
+*/
