@@ -8,11 +8,23 @@ const express = require('express')
   , app = express();
 
 var GoogleStrategy = require('passport-google-oauth20').Strategy;
+var FacebookStrategy = require('passport-facebook').Strategy;
+
 
 passport.use(new GoogleStrategy({
   clientID: config.api_key,
   clientSecret: config.api_secret,
   callbackURL: config.callback_url
+},
+  function (accessToken, refreshToken, profile, done) {
+    return done(null, profile);
+  }
+));
+
+passport.use(new FacebookStrategy({
+  clientID: facebookconfig.api_key,
+  clientSecret: facebookconfig.api_secret,
+  callbackURL: facebookconfig.callback_url
 },
   function (accessToken, refreshToken, profile, done) {
     return done(null, profile);
@@ -45,6 +57,15 @@ app.get('/auth/google', passport.authenticate('google', { scope: ['profile'] }))
 
 app.get('/auth/google/callback',
   passport.authenticate('google', { successRedirect: '/', failureRedirect: '/login' }),
+  function (req, res) {
+    res.redirect('/');
+  }
+);
+
+app.get('/auth/facebook', passport.authenticate('facebook'));
+
+app.get('/auth/facebook/callback',
+  passport.authenticate('facebook', { successRedirect: '/', failureRedirect: '/login' }),
   function (req, res) {
     res.redirect('/');
   }
