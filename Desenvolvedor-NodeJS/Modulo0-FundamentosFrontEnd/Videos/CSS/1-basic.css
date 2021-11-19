@@ -66,6 +66,11 @@ p.mix {border-style: dotted dashed solid double;}
     box-sizing: border-box; /*vai proporcionalizar a largura real desejada*/
     max-width: 500px;
 }
+/*
+width ou height define a larg e alt do content
+o elemento tem content, padding, border, margin
+largura real =  content +  padding + border + margin
+*/
 
 .class1{
     color: rgb(rgb(107, 90, 58), green, blue);
@@ -81,8 +86,8 @@ h1, h2, h3{
 }
 
 #css_s{
-    outline-style: dotted ; /*dAo contrário da borda, o contorno é desenhado fora da borda do elemento e pode se sobrepor a outro conteúdo.*/
-    outline-width: 4px;
+    outline-style: dotted ; /*o contorno difere das bordas ! Ao contrário da borda, o contorno é desenhado fora da borda do elemento e pode se sobrepor a outro conteúdo. Além disso, o contorno NÃO faz parte das dimensões do elemento; a largura e a altura totais do elemento não são afetadas pela largura do contorno.*/
+    outline-width: 4px; /*thin (typically 1px) medium (typically 3px) thick (typically 5px) A specific size (in px, pt, cm, em, etc)*/
     outline-color:invert;
     outline-offset: 5px;
     /*outline: invert 4px solid;*/
@@ -92,12 +97,12 @@ h1, h2, h3{
     color: black;
     text-align: center;
     background-color: beige;
-    /*direction: rtl;*/
-    /*vertical-align: text-top;*/
+    direction: rtl;
+    vertical-align: text-top;
     
-    text-decoration: none;
+    text-decoration: none; /*overline   line-through    underline*/
 
-    text-transform: uppercase;
+    text-transform: uppercase; /*lowercase      capitalize*/
 
     text-indent: 50px;  /*é usada para especificar o recuo da primeira linha de um texto*/
 
