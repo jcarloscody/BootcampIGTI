@@ -1,0 +1,92 @@
+Plano de ensino do Módulo 3
+Bancos de Dados + Node.js
+
+ 
+
+Capítulo 1. Introdução 
+
+1.1. Conteúdo do módulo 
+
+1.2. Introdução a Bancos de Dados 
+
+ 
+
+Capítulo 2. Bancos de Dados SQL 
+
+2.1. Introdução a Bancos de Dados SQL 
+
+2.2. ElephantSQL 
+
+2.3. Modelagem SQL 
+
+2.4. Criação das tabelas 
+
+2.5.1 Criação do projeto base – Parte 1 
+
+2.5.2 Criação do projeto base – Parte 2 
+
+2.6. Criação do pool de conexões 
+
+2.7. insertClient 
+
+2.8. Release conexão e getClients 
+
+2.9. getClient e deleteClient 
+
+2.10. updateClient 
+
+2.11. Implementação Suppliers 
+
+2.12. Implementação Products 
+
+2.13. Validação de Supplier 
+
+2.14. Implementação Sales 
+
+2.15. Validação de Estoque na Venda 
+
+2.16. Validação de Estoque na Exclusão da Venda 
+
+2.17. Consultas com Query String 
+
+ 
+
+Capítulo 3. Bancos de Dados SQL com ORM 
+
+3.1. Sequelize 
+
+3.2. Criação da conexão e mapeamento do Client 
+
+3.3. Mapeamento Supplier e Product 
+
+3.4. Mapeamento Sale 
+
+3.5. Repository Client 
+
+3.6. Repository Supplier e Product 
+
+3.7.1 Repository Sale - Parte 1 
+
+3.7.2 Repository Sale - Parte 2 
+
+3.8. Consulta por associação 
+
+ 
+
+Capítulo 4. Bancos de Dados NoSQL 
+
+4.1. Bancos de Dados NoSQL 
+
+4.2. MongoDB Atlas e Compass 
+
+4.3. Create ProductInfo 
+
+4.4. Update e Get ProductInfo 
+
+4.5. Create e Delete Review 
+
+4.6. FindAll e Delete ProductInfo 
+
+4.7.1 Mongoose – Parte 1 
+
+4.7.2 Mongoose – Parte 2 

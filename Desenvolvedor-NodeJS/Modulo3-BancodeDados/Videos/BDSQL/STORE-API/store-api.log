@@ -1,0 +1,30 @@
+2021-11-23T13:33:52.806Z [error] error undefined undefined undefined
+2021-11-23T13:34:01.544Z [error] error undefined undefined undefined
+2021-11-23T13:36:59.367Z [info] info POST {
+  "nome": "test",
+  "cpf": "test",
+  "phone": "test",
+  "email": "test",
+  "address": "test"
+}
+2021-11-23T13:38:42.342Z [info] info POST {
+  "nome": "test",
+  "cpf": "test",
+  "phone": "test",
+  "email": "test",
+  "address": "test"
+}
+2021-11-23T13:38:47.270Z [info] info POST {
+  "nome": "test",
+  "cpf": "test",
+  "phone": "test",
+  "email": "test",
+  "addsress": "test"
+}
+2021-11-23T13:41:55.391Z [info] info POST {
+  "nome": "test",
+  "cpf": "test",
+  "phone": "test",
+  "email": "test",
+  "address": "test"
+}
