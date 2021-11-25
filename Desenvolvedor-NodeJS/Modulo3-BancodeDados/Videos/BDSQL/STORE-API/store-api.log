@@ -122,3 +122,57 @@
   "email": "josue@gmail.com",
   "address": "rua xasdasd"
 }
+2021-11-25T13:00:11.433Z [info] info GET /product
+2021-11-25T13:08:24.908Z [info] info GET /supplier
+2021-11-25T13:33:45.068Z [info] info POST {
+  "name": "josue",
+  "description": "121f1312313",
+  "value": "2323",
+  "stock": "12",
+  "suplier_id": "1"
+}
+2021-11-25T13:35:05.789Z [info] info GET /product
+2021-11-25T13:35:23.158Z [info] info POST {
+  "name": "arrzo",
+  "description": "121f1312313",
+  "value": "2323",
+  "stock": "12",
+  "suplier_id": "1"
+}
+2021-11-25T13:35:27.011Z [info] info GET /product
+2021-11-25T13:41:18.185Z [info] info GET /product
+2021-11-25T13:41:21.720Z [info] info POST {
+  "name": "arrzo",
+  "description": "121f1312313",
+  "value": 2323,
+  "stock": 12,
+  "suplier_id": 1
+}
+2021-11-25T13:53:12.756Z [info] info POST {
+  "name": "arrzo",
+  "description": "121f1312313",
+  "value": 2323,
+  "stock": 12,
+  "suplier_id": 1
+}
+2021-11-25T17:14:16.375Z [info] info GET /sale
+2021-11-25T17:15:19.581Z [info] info GET /product
+2021-11-25T17:16:57.923Z [info] info GET /client
+2021-11-25T17:17:08.766Z [info] info POST {
+  "value": 56,
+  "date": "12/12/2020",
+  "client_id": 4,
+  "product_id": 1
+}
+2021-11-25T17:17:16.435Z [info] info GET /sale
+2021-11-25T18:33:04.346Z [info] info GET /product
+2021-11-25T18:36:19.943Z [info] info POST {
+  "value": 56,
+  "date": "12/12/2020",
+  "client_id": 4,
+  "product_id": 1
+}
+2021-11-25T18:50:06.285Z [info] info GET /sale
+2021-11-25T18:50:38.204Z [info] info GET /sale
+2021-11-25T19:15:48.525Z [info] info GET /sale
+2021-11-25T19:27:44.886Z [info] info GET /sale
