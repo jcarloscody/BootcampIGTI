@@ -23,6 +23,4 @@ const Sale = db.define('sales', {
 Sale.belongsTo(Product, { foreignKey: "productId" })
 Sale.belongsTo(Client, { foreignKey: "clientId" })
 
-export default {
-    Sale
-}
+export default Sale

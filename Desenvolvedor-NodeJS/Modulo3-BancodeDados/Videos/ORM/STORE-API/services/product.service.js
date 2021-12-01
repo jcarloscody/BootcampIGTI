@@ -1,5 +1,6 @@
 import productRepository from '../repositories/product.repository.js'
 import supplierRpository from '../repositories/supplier.repository.js'
+import SaleRepository from '../repositories/sale.repository.js'
 
 async function createProduct(client) {
     if (await supplierRpository.getSupplier(client.suplier_id)) {
@@ -17,6 +18,10 @@ async function getProduct(id) {
 }
 
 async function deleteProduct(id) {
+    const sale = await SaleRepository.getSalesByProductId(id)
+    if (sale.length > 0) {
+        throw new Error("não é possivel excluir pq tem chave estrangeir")
+    }
     return await productRepository.deleteProduct(id)
 }
 

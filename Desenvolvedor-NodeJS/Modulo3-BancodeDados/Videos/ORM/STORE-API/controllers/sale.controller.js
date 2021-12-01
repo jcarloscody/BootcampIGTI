@@ -6,7 +6,7 @@ async function createSale(request, response, next) {
     try {
         let sale = request.body;
 
-        if (!sale.value || !sale.date || !sale.client_id || !sale.product_id) {
+        if (!sale.value || !sale.date || !sale.clientI || !sale.productId) {
             throw new Error("!sale.value || !sale.date || !sale.client_id || !sale.product_id são obrigatórios")
         }
 
@@ -20,7 +20,7 @@ async function createSale(request, response, next) {
 
 async function getSales(request, response, next) {
     try {
-        response.send(await saleService.getSales(request.query.product_id))
+        response.send(await saleService.getSales(request.query.productId, request.query.supplierId))
         logger.info(`GET /sale`)
     } catch (error) {
         next(error)
@@ -50,7 +50,7 @@ async function deleteSale(request, response, next) {
 async function updateSale(request, response, next) {
     try {
         let sale = request.body;
-        if (!sale.value || !sale.date || !sale.client_id || !sale.product_id || !sale.sale_id) {
+        if (!sale.value || !sale.date || !sale.clientId || !sale.productId || !sale.saleId) {
             throw new Error("ID, Name, CPF, Phone, email, Address são obrigatórios")
         }
         response.send(await saleService.updateSale(sale))

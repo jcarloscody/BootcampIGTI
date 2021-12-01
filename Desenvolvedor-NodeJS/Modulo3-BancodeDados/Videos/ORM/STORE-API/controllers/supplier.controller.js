@@ -4,8 +4,8 @@ import supplierService from '../services/supplier.service.js'
 async function createSupplier(request, response, next) {
     try {
         let supplier = request.body;
-        if (!supplier.nome || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address) {
-            throw new Error("Name, cnpj, Phone, email, Address são obrigatórios")
+        if (!supplier.name || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address) {
+            throw new Error("Nome, cnpj, Phone, email, Address são obrigatórios")
         }
         response.send(await supplierService.createSupplier(supplier))
         logger.info(`POST ${JSON.stringify(supplier, null, 2)}`)
@@ -46,7 +46,7 @@ async function deleteSupplier(request, response, next) {
 async function updateSupplier(request, response, next) {
     try {
         let supplier = request.body;
-        if (!supplier.supplier_id || !supplier.nome || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address) {
+        if (!supplier.supplierId || !supplier.nome || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address) {
             throw new Error("ID, Name, cnpj, Phone, email, Address são obrigatórios")
         }
         response.send(await supplierService.updateSupplier(supplier))

@@ -46,7 +46,7 @@ async function deleteProduct(request, response, next) {
 async function updateProduct(request, response, next) {
     try {
         let product = request.body;
-        if (!product.product_id || !product.name || !product.description || !product.value || !product.stock || !product.suplier_id) {
+        if (!product.productId || !product.name || !product.description || !product.value || !product.stock || !product.suplier_id) {
             throw new Error("ID, Name, description, value, stock, suplier_id são obrigatórios")
         }
         response.send(await productService.updateProduct(product))

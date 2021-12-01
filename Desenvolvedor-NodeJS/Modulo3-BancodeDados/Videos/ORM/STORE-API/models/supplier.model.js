@@ -31,6 +31,4 @@ const Supplier = db.define('supliers', {
 }, { underscored: true });
 
 
-export default {
-    Supplier
-}
+export default Supplier

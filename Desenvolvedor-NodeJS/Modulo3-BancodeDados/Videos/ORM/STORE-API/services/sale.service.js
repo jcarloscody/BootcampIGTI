@@ -4,8 +4,8 @@ import productRepository from '../repositories/product.repository.js'
 
 
 async function createSale(sale) {
-    const product = await productRepository.getProduct(sale.product_id);
-    if (await clientRepository.getClient(sale.client_id) && product) {
+    const product = await productRepository.getProduct(sale.productId);
+    if (await clientRepository.getClient(sale.clientId) && product) {
         if (product.stock > 0) {
             sale = await saleRepository.insertSale(sale)
             product.stock--
@@ -19,13 +19,16 @@ async function createSale(sale) {
     throw new Error("id de client e product inexistente")
 }
 
-async function getSales(productId) {
+async function getSales(productId, supplierId) {
     if (productId) {
         return await saleRepository.getSalesByProductId(productId)
-    } else {
-        return await saleRepository.getSales()
     }
 
+    if (supplierId) {
+        return await saleRepository.getSalesBySupplierId(supplierId)
+    }
+
+    return await saleRepository.getSales()
 }
 
 async function getSale(id) {
@@ -35,7 +38,7 @@ async function getSale(id) {
 async function deleteSale(id) {
     const sale = await saleRepository.getSale(id)
     if (sale) {
-        const product = await productRepository.getProduct(sale.product_id)
+        const product = await productRepository.getProduct(sale.productId)
         await saleRepository.deleteSale(id)
         product.stock++
         await productRepository.updateProduct(product)
@@ -46,7 +49,7 @@ async function deleteSale(id) {
 }
 
 async function updateSale(sale) {
-    if (await clientRepository.getClient(sale.client_id) && await productRepository.getProduct(sale.product_id)) {
+    if (await clientRepository.getClient(sale.clientId) && await productRepository.getProduct(sale.productId)) {
         return await saleRepository.updateSale(sale)
     }
     throw new Error("id de client e product inexistente")
