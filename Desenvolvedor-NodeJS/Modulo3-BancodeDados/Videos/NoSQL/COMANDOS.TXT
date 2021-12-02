@@ -1,0 +1,33 @@
+Neste exemplo MongoDB
+
+orientado a documentos, os docs sao coleções de atributos e valores, nao precisam ter uma estrutura e valores, 
+nao precisam ter uma estrutura em comum.
+
+mais facilmente escalável, alta performance.
+
+MONGO MongoDB
+nao possui esquema definido
+nao é relacional
+estrutura sql vs nosql
+    bd vs bd
+    tabelas vs colecoes
+    linhas vs docs
+    colunas vs campos
+json
+
+npm i mongodb
+
+
+
+mongodb.com/cloud/atlas
+
+db - store
+collection productInfo
+
+productInfo 
+    "productId": int
+    "category": ""
+    "width": ""
+    "height": ""
+    "depth": ""
+    "reviews": []
