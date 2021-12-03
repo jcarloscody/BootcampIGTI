@@ -54,3 +54,11 @@ app.listen(3000, () => {
  */
 
 
+/**mongoose
+ *npm i mongoose --save
+ * é uma biblioteca para modelagem de dados com o mongodb
+ * é do tipo ODM - object data modem
+ *
+ * é um paralelo com sequelize do sql
+ *
+ */

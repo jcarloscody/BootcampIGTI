@@ -1,3 +1,4 @@
+
 import getClient from "./mongo.db";
 
 async function createProductInfo(productInfo) {
@@ -38,8 +39,55 @@ async function getProductInfo(productId) {
     }
 }
 
+
+async function createReview(review, productId) {
+    try {
+        const productInfo = await getProductInfo(productId)
+        productInfo.review.push(review)
+        return await updateProductInfo(productInfo)
+    } catch (error) {
+        throw error
+    }
+}
+
+async function deleteReview(id, index) {
+    try {
+        const productInfo = await getProductInfo(parseInt(id))
+        productInfo.review.splice(index, 1)
+        return await updateProductInfo(productInfo)
+    } catch (error) {
+        throw error
+    }
+}
+
+async function findAll() {
+    const client = getClient()
+    try {
+        await client.connect()
+        return await client.db("store").collection("productInfo").find({}).toArray()
+    } catch (error) {
+        throw error
+    }
+}
+
+async function deleteProductInfo(productId) {
+    const client = getClient();
+    try {
+        await client.connect();
+        return await client.db("store").collection("productInfo").deleteOne({ productId })
+    } catch (error) {
+        throw error
+    } finally {
+        await client.close()
+    }
+}
+
 export default {
     createProductInfo,
     updateProductInfo,
-    getProductInfo
+    getProductInfo,
+    createReview,
+    deleteReview,
+    findAll,
+    deleteProductInfo
 }
