@@ -40,3 +40,52 @@ describe('Arredondar', () => {
         expect(resultado).toBe(1.01)
     })
 })
+
+
+describe('calcularPrestacoes', () => {
+    test('o numero de parcelas é igual ao numero de prestacoes', () => {
+
+        const numeroPrestacoes = 6
+        const prestacoes = calculaValor.calcularPrestacoes(200, numeroPrestacoes)
+        expect(prestacoes.lenght).toBe(numeroPrestacoes)
+    })
+
+    test('uma unica prestacao e o valor sera igual ao montatnte', () => {
+        const numeroPrestacoes = 1
+        const prestacoes = calculaValor.calcularPrestacoes(50, numeroPrestacoes)
+
+        expect(prestacoes.length).toBe(numeroPrestacoes)
+        expect(prestacoes[0]).toBe(50)
+    })
+
+    test('duas prestacoes valor igual a metadade do montante', () => {
+        const numeroPrestacoes = 2
+        const prestacoes = calculaValor.calcularPrestacoes(50, numeroPrestacoes)
+
+        expect(prestacoes.length).toBe(numeroPrestacoes)
+        expect(prestacoes[0]).toBe(25)
+        expect(prestacoes[1]).toBe(25)
+    })
+
+    test.only('valor da soma das prestacoes deve ser igual ao montante com duas casas decimais', () => {
+        //debugger;//para debugar
+
+        //dado
+        const numeroPrestacoes = 3
+        const montante = 100
+        //quando
+        const prestacoes = calculaValor.calcularPrestacoes(montante, numeroPrestacoes)
+        //entao
+        expect(prestacoes.length).toBe(numeroPrestacoes)
+        const soma = calculaValor.arredondar(prestacoes[0] + prestacoes[1] + prestacoes[2])
+        expect(soma).toBe(montante)
+
+        for (let index = 0; index < prestacoes.length - 1; index++) {
+            const j = i + 1;
+
+            expect(prestacoes[i]).toBeGreaterThanOrEqual(prestacoes[i])
+
+        }
+        //para debugar :: node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand    | exit - para sair 
+    })
+})

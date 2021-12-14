@@ -64,4 +64,9 @@ adiciona no eslintrc.json o jest
     npm run lint
 
 
- */
+
+
+ "WATCH"- permite que visualize em tempo real as alterações realizadas. package
+ npm run watch
+
+*/
